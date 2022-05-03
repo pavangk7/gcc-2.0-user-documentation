@@ -8,4 +8,4 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 
 1. Log in to the [GCC 2.0 Cloud Management Portal](https://cmp.gcc.gov.sg)
 
-?> For detailed instructions on how to log in to CMP, refer to [Log in to the Cloud Management Portal](#log-in-to-the-cloud-management-portal) section.
+?> For detailed instructions on how to log in to CMP, refer to [Log in to the Cloud Management Portal](log-in-to-cmp) section.
