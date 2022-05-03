@@ -2,13 +2,13 @@
 
 GCC 2.0 has a Cloud Management Portal (CMP) which is a web-based console for GCC 2.0 users. Authorised agency user who has onboarded to GCC 2.0 can create and manage GCC 2.0 subscriptions for their agency.
 
-## Supported devices
+**Supported devices**
 - Non-SE GSIB devices
 - Government Managed Device
 
 ?> Note: For more information about these devices, refer to the [GCC glossary](glossary).
 
-## Prerequisites to access CMP
+**Prerequisites to access CMP**
 
 1. From your non-SE GSIB device, go to [TechPass portal](https://portal.techpass.gov.sg/) and sign up for [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines). If you need to access CMP from the agency provided internet device, request SEED provisioning while signing up for TechPass.
 
