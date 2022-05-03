@@ -2,3 +2,4 @@
 [About CMP](about-gcc-2.0-cloud-management-portal)
 [Log in to CMP](log-in-to-cmp)
 [Create Tenant Account](create-tenant-account)
+[Glossary](glossary)
