@@ -6,9 +6,7 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 
 **To submit tenant account creation request:**
 
-1. Log in to the [GCC 2.0 Cloud Management Portal](https://cmp.gcc.gov.sg)
-
-?> For detailed instructions on how to log in to CMP, refer to [Log in to the Cloud Management Portal](log-in-to-cmp) section.
+1. [Log in to the Cloud Management Portal](log-in-to-cmp)
 
 2. In the **Dashboard**, click **Create New Tenant**.
 
