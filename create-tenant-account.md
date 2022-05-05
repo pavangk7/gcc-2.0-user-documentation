@@ -18,15 +18,14 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 
 4. Specify the required agency details and click **Next**.
 
+<kbd>![create-tenant-acc-agency-details](images/create-tenant-acc-agency-details.png)</kbd>
+
 | Field Name  | Description |
 | ------------- |:-------------:|
 | **Tenant Name**      | Human readable alias name for this tenancy     |
 | **Parent Agency**     | Name of your agency     |
 | **Agency Address** | Official mailing address of your Agency. This is automatically populated based on the specified **Parent Agency** |
-| **Agency CIO Email**      | Organisation email address of your agency's CIO or the CIO delegate who is authorised to approve the GCC 2.0 tenant request     |
-
-
-<kbd>![create-tenant-acc-agency-details](images/create-tenant-acc-agency-details.png)</kbd>
+| **Agency CIO Email** | Organisation email address of your agency's CIO or the CIO delegate who is authorised to approve the GCC 2.0 tenant request |
 
 6. To assign **Tenant Admin**, go to **Tenant Admin Details** section and choose one the following steps:
 
@@ -35,10 +34,13 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 
 <kbd>![create-tenant-assign-roles](images/create-tenant-assign-roles.png)</kbd>
 
-| Field Name  | Description |
+| <div style="width:290px">Field Name</div>  | Description |
 | ------------- |:-------------:|
 | **Tenant Manager Details** | Displays the organisation email address and full name of the **Tenant Manager**. By default, the agency officer who is requesting this tenant account is assigned as **Tenant Manager**. |
-|   **Email** |   
+|    **Email** |   Organisation of the **Tenant Manager**. |
+
+
+
 
 > **Notes**
 >- Initially, it is mandatory for the requestor to be assigned with at least one of these roles.
