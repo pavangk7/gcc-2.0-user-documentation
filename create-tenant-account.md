@@ -22,6 +22,7 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 | ------------- |:-------------:|
 | **Tenant Name**      | Human readable alias name for this tenancy     |
 | **Parent Agency**     | Name of your agency     |
+| **Agency Address** | Official mailing address of your Agency. This is automatically populated based on the specified **Parent Agency** |
 | **Agency CIO Email**      | Organisation email address of your agency's CIO or the CIO delegate who is authorised to approve the GCC 2.0 tenant request     |
 
 
@@ -33,6 +34,11 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
       - To assign the role to another user, enter that public officer's TechPass ID in **Email** and full name in **Name**.
 
 <kbd>![create-tenant-assign-roles](images/create-tenant-assign-roles.png)</kbd>
+
+| Field Name  | Description |
+| ------------- |:-------------:|
+| **Tenant Manager Details** | Displays the organisation email address and full name of the **Tenant Manager**. By default, the agency officer who is requesting this tenant account is assigned as **Tenant Manager**. |
+|   **Email** |   
 
 > **Notes**
 >- Initially, it is mandatory for the requestor to be assigned with at least one of these roles.
