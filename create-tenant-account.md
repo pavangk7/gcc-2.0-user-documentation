@@ -20,8 +20,8 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 
 <kbd>![create-tenant-acc-agency-details](images/create-tenant-acc-agency-details.png)</kbd>
 
-| Field Name  | Description |
-| ------------- |:-------------:|
+| <div style="width:290px">Field Name</div>  | Description |
+| :------------------------------------------ |:-------------|
 | **Tenant Name**      | Human readable alias name for this tenancy     |
 | **Parent Agency**     | Name of your agency     |
 | **Agency Address** | Official mailing address of your Agency. This is automatically populated based on the specified **Parent Agency** |
@@ -35,9 +35,17 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 <kbd>![create-tenant-assign-roles](images/create-tenant-assign-roles.png)</kbd>
 
 | <div style="width:290px">Field Name</div>  | Description |
-| ------------- |:-------------:|
-| **Tenant Manager Details** | Displays the organisation email address and full name of the **Tenant Manager**. By default, the agency officer who is requesting this tenant account is assigned as **Tenant Manager**. |
-|    **Email** |   Organisation of the **Tenant Manager**. |
+| :------------------------------------------ |:-------------|
+| **Tenant Manager Details**                  | This section displays the organisation email address, full name and handphone number(if available) of the **Tenant Manager**. By default, the agency officer requesting this tenant account is assigned as the **Tenant Manager**. |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Email**                                |   By default, displays the organisation email address of the requestor. You can assign this role to another user by entering the email address of the required public officer provided you first assign the **Tenant Admin** role for yourself. **Tenant Manager**.                                                    |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Name**                                    |   Full name of the **Tenant Manager**.                                                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Mobile Number**   | Contact number of the **Tenant Manager**.                                                    |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Assign To Me**                            |   Click this to assign the **Tenant Manager** role to yourself. |
+| **Tenant Admin Details**                    |   Displays the organisation email address, full name and handphone number(if available) of the **Tenant Admin**. |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Email**                                   |   By default, this field is blank.  Organisation email address of the **Tenant Admin**. |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Name**                                    |   Full name of the **Tenant Admin**. |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Assign To Me**                            |   Click this to assign the **Tenant Admin** role to another public officer in your agency. |  
+| 
 
 
 
