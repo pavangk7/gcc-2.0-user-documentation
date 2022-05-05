@@ -34,10 +34,10 @@ Public officers who has onboarded to GCC 2.0 requests for a tenant account to be
 
 <kbd>![create-tenant-assign-roles](images/create-tenant-assign-roles.png)</kbd>
 
-| Field Name  | Description |
+| <div style="width:290px">Field Name</div>  | Description |
 | ------------- |:-------------:|
 | **Tenant Manager Details** | Displays the organisation email address and full name of the **Tenant Manager**. By default, the agency officer who is requesting this tenant account is assigned as **Tenant Manager**. |
-|    **Email** |   
+|    **Email** |   Organisation of the **Tenant Manager**. |
 
 
 
