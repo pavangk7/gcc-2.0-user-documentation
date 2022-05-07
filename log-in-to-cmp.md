@@ -1,4 +1,4 @@
-## Log in to the Cloud Management Portal
+# Log in to the Cloud Management Portal
 
 1. From a non-SE GSIB or GMD, log in to the [GCC 2.0 Cloud Management Portal](https://cmp.gcc.gov.sg).
 2. Choose or enter your TechPass account.
