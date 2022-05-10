@@ -1,4 +1,4 @@
-[Cloud Management Portal for GCC 2.0](overview)
-[Log in to CMP](log-in-to-cmp)
-[Create Tenant Account](create-tenant-account)
-[Glossary](glossary)
+- [Cloud Management Portal for GCC 2.0](overview)
+- [Log in to CMP](log-in-to-cmp)  
+- [Create Tenant Account](create-tenant-account)  
+- [Glossary](glossary)
