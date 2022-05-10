@@ -1,6 +1,6 @@
 # About Cloud Management Portal
 
-[GCC 2.0](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/) has a Cloud Management Portal(CMP) which is a web-based console for agencies to centrally manage their GCC 2.0 tenant accounts and cloud accounts. Authorised agency user who has onboarded to GCC 2.0 can create and manage GCC 2.0 subscriptions for their agency.
+[GCC 2.0](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/) has a Cloud Management Portal(CMP) which is a web-based console for agencies to centrally manage their GCC 2.0 tenant accounts and cloud accounts. Authorised agency users who have onboarded to GCC 2.0 can create and manage GCC 2.0 subscriptions for their agency.
 
 **Supported devices**
 - Non-SE GSIB devices
@@ -14,22 +14,16 @@
 
 >**Notes**
 >- If you already have a TechPass and need to onboard your internet device to SEED, [request SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).
->- If you have issues in signing up for TechPass account or activating your TechPass account, raise a service request with the [TechPass support](https://go.goc.sg/techpass-sr)
+>- If you have issues in signing up for TechPass account or activating your TechPass account, raise a service request with the [TechPass support](https://go.goc.sg/techpass-sr).
 
 2. [Onboard your internet device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/onboard-device-to-seed) if you want to access CMP from it.
 
 
 
-**Next step**:
+**Next steps**:
 
+- [Log in to GCC 2.0 CMP](log-in-to-cmp)
 - [Create tenant account](create-tenant-account)
-<!--
-- Add users to tenant account
-- Create cloud account
-- Add users to cloud account
-- Manage mailing list for your cloud account
-- Manage tenant billing account
--->
 
 **Additional resources**:
 
@@ -38,3 +32,11 @@
 - [General GCC 2.0 Information](https://sgdcs.sgnet.gov.sg/sites/tech/SNDigiGov/CentralICTServices/MHI/Pages/GCC-2.0.aspx)
 
 ?>Note: Users can access some resources in the above links only from a GSIB device.
+
+<!--
+- Add users to tenant account
+- Create cloud account
+- Add users to cloud account
+- Manage mailing list for your cloud account
+- Manage tenant billing account
+-->
