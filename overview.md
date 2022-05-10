@@ -2,7 +2,7 @@
 
 [GCC 2.0](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/) has a Cloud Management Portal(CMP) which is a web-based console for agencies to centrally manage their GCC 2.0 tenant accounts and cloud accounts. Authorised agency users who have onboarded to GCC 2.0 can create and manage GCC 2.0 subscriptions for their agency.
 
-**Supported devices**
+## Supported devices
 - Non-SE GSIB devices
 - Government Managed Device
 
@@ -25,7 +25,7 @@
 - [Log in to GCC 2.0 CMP](log-in-to-cmp)
 - [Create tenant account](create-tenant-account)
 
-**Additional resources**:
+## Additional resources
 
 - [GCC 2.0 Workshops](https://docs.developer.tech.gov.sg/docs/gcc-20-workshops/#/)
 - [GCC 2.0 Tech Talks](https://docs.developer.tech.gov.sg/docs/gcc-2-tech-talks/#/)
