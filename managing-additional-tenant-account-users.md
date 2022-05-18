@@ -5,7 +5,7 @@ Tenant Manager and Tenant Admin manage tenant accounts and their users. Generall
 | :------------------------------------------ |:-------------| :------------- |
 | [Submit additional tenant account user request](#submit-additional-tenant-account-user-request) | Tenant Manager or Tenant Admin | Tenant Manager or Tenant Admin can add and manage additional users for the account. <br><br> Note: Tenant Managers can submit this request provided there are more than one Tenant Manager for the account as the request has to be approved by another Tenant Manager|
 | [Retract additional tenant account user request](#retract-additional-tenant-account-user-request) | User who submitted the request | User who submitted the request can cancel a request as long as it is not been processed. |
-| [Approve or reject additional tenant account user request](#approve-additional-tenant-account-user-request)| Tenant Manager | Assigned Tenant Managers receive an email notification to process the request.|
+| [Approve or reject additional tenant account user request](#approve-or-reject-additional-tenant-account-user-request)| Tenant Manager | Assigned Tenant Managers receive an email notification to process the request.|
 | [View tenant account users](#view-tenant-account-users) | Tenant Manager and Tenant Admin | Tenant Manager and Tenant Admin of this account can view and manage users of a tenant account.|
 
 ## Submit additional tenant account user request
