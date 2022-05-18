@@ -105,7 +105,7 @@ The agency CIO or the designated CIO delegate reviews request details before app
 4. Optionally, in the second line, add your comments.
 5. Click **Send**.
 
-CMP is notified about the approval or rejection. If the request is approved, the requested tenant account is created and the **Tenant Manager** who requested this account is notified via an email.
+CMP is notified about the approval or rejection. If the request is approved, the requested tenant account is created and the **Tenant Manager** who requested this account is notified via an email.  
 
 ## View the newly created tenant account
 
