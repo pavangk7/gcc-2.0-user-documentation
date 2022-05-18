@@ -36,7 +36,7 @@ The Tenant Manager completes the following steps to initiate the tenant account 
 | **Agency CIO Email** | Enter the organisation email address of your CIO or the designated CIO delegate who is authorised to approve the tenant creation request. |
 
 
-?> The requesting public officer must be either a **Tenant Manager** or a **Tenant Admin** for this account. By default, the public officer requesting this tenant account is assigned as the **Tenant Manager**. You can add additional tenant users after the Tenant Account is approved.
+?> The requesting public officer must be either a **Tenant Manager** or a **Tenant Admin** for this account. By default, the public officer requesting this tenant account is assigned as the **Tenant Manager**. You can [manage additional tenant users](managing-additional-tenant-account-users) after the Tenant Account is approved.
 
 5. To assign a **Tenant Admin**, go to **Tenant Admin Details** section and choose one the following steps:
 
