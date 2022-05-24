@@ -2,9 +2,9 @@
 
 Tenant Admin and Tenant Manager can do the following tasks:
 - [View CSP account users](#view-csp-account-users)
-- [Submit request to add CSP account users](#submit-request-to-add-csp-account-users)
+- [Submit a request to add CSP account users](#submit-a-request-to-add-csp-account-users)
 - [Retract CSP account user request](#retract-CSP-account-user-request)
-- [Approve or reject add cloud user request](#approve-or-reject-add-cloud-user-request)
+- [Approve or reject a add CSP account user request](#approve-or-reject-a-add-csp-account-user-request)
 
 
 ## View CSP account users
@@ -18,13 +18,13 @@ Tenant Manager and Tenant Admin can view and manage CSP account users.
    - [Submit request to add cloud users](#submit-request-to-add-cloud-users).
    - Delete a user from this CSP account by clicking the trash icon in that row.
 
-## Submit request to add CSP account users
+## Submit a request to add CSP account users
 Tenant Admin and Tenant Manager can add users to a CSP account.
 
 > **Note:**
 > Tenant Manager can submit this request only if there is more than one Tenant Manager for this tenant account.
 
-**To submit a request to CSP account users:**
+**To submit a request to add CSP account users:**
 1. [Log in to the Cloud Management portal](log-in-to-cmp).
 2. Locate the required tenant account and click **Manage**. Available CSP accounts are listed on the **CSP Accounts** page.
 3. Locate the required CSP account and click **Manage**.
@@ -60,7 +60,7 @@ Requestor may retract a request and CMP allows this if the request is yet to be 
 
 When you retract a request, you may have to provide a reason for retracting the request and the request status changes from **Pending** to **Cancelled** and will be listed under **Notifications** > **Approvals** > **Cancelled**..
 
-**To retract add cloud user request:**
+**To retract CSP account user request:**
 1. [Log in to the Cloud Management portal](log-in-to-cmp).
 1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 1. Select **Pending** and then go to the **Sent** tab to view requests submitted by you and pending approval.
@@ -72,7 +72,7 @@ When you retract a request, you may have to provide a reason for retracting the 
 
 <kbd>![retract-add-cloud-user-view-details](images/retract-add-cloud-user-view-details.png)</kbd>
 
-## Approve or reject add cloud user request
+## Approve or reject a add CSP account user request
 When authorised users submits a request to add cloud users to a CSP account, they assign the request to Tenant Manager(s) for approval. Assigned Tenant Managers receive an email notification to process the request.
 
 **Authorised users:** Assigned Tenant Managers.
@@ -80,7 +80,7 @@ When authorised users submits a request to add cloud users to a CSP account, the
 > **Note:**
 > A request is considered to be processed if one of the assigned Tenant Manager approves or rejects the request.
 
-**To approve or reject additional tenant account user request:**
+**To approve or reject CSP account user request:**
 
 1. [Log in to the Cloud Management portal](log-in-to-cmp).
 1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.

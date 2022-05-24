@@ -74,7 +74,7 @@ Requestor may retract a request and CMP allows this if the request is yet to be 
 
 When you retract a request, you may have to provide a reason for retracting the request and the request status changes from **Pending** to **Cancelled** and will be listed under **Notifications** > **Approvals** > **Cancelled**.
 
-**To retract an additional tenant account user request:**
+**To retract the additional tenant account user request:**
 1. [Log in to the Cloud Management portal](log-in-to-cmp).
 1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
@@ -94,7 +94,7 @@ When a request to add tenant account users is submitted, the assigned Tenant Man
 > **Note:**
 > A request is considered to be processed if one of the assigned Tenant Manager approves or rejects the request.
 
-**To approve or reject additional tenant account user request:**
+**To approve or reject the additional tenant account user request:**
 
 1. [Log in to the Cloud Management portal](log-in-to-cmp) as **Tenant Manager**.
 1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.

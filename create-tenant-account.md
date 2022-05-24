@@ -15,13 +15,13 @@ Public officer with an active TechPass account.
 Topics:
 
 - [Request for a tenant account](#request-for-a-tenant-account)
-- [Approve or reject tenant account creation request](#approve-tenant-account-creation-request)
-- [View tenant account](#view-tenant-account)
+- [Approve or reject a tenant account creation request](#approve-or-reject-a-tenant-account-creation-request)
+- [View tenant accounts](#view-tenant-accounts)
 
 ## Request for a tenant account
 By default, the public officer who requests for the tenant account will be the Tenant Manager and has to complete the following steps.
 
-**To submit tenant account creation request:**
+**To submit a tenant account creation request:**
 
 1. [Log in to the Cloud Management portal](log-in-to-cmp).
 
@@ -96,7 +96,7 @@ By default, the public officer who requests for the tenant account will be the T
 
 > **Note:** After your request to create tenant account is approved, you can [view the tenant account](#view-tenant-account) on CMP.
 
-## Approve tenant account creation request
+## Approve or reject a tenant account creation request
 When a Tenant Manager submits a request to create a tenant account, the Chief Information Officer(CIO) or the designated CIO delegate of the agency receives an email to process this request via email.
 
 **To approve or reject a tenant account creation request:**
@@ -115,10 +115,10 @@ When a Tenant Manager submits a request to create a tenant account, the Chief In
 
 If the request is approved, the tenant account is created and listed on the CMP Dashboard. The Tenant Manager who requested this account is notified via email.
 
-## View tenant account
+## View tenant accounts
 Tenant Manager and Tenant Admin can view and manage the tenant account. They can [Manage additional tenant account users](manage-additional-tenant-account-users) for this account.
 
-**To view the tenant account:**
+**To view tenant accounts:**
 - [Log in to the Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 
 <kbd>![view-tenant-account-from-dashboard](images/view-tenant-account-users-01.png)</kbd>
