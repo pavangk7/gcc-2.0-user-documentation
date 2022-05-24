@@ -6,7 +6,7 @@ Agencies can create and manage their cloud accounts using CMP, and this has the 
 
 - [Request for a CSP account](#request-for-a-CSP-account)
 - [Retract CSP account creation request](#retract-csp-account-creation-request)
-- [Approve CSP account creation request](#approve-csp-account-creation-request)
+- [Approve or reject CSP account creation request](#approve-or-reject-csp-account-creation-request)
 - [View CSP account](#view-csp-account)
 
 ## Request for a CSP account
@@ -74,7 +74,7 @@ When you retract a request, you may have to provide a reason for retracting the 
 1. Verify the request details and click **Retract**.
 <kbd>![retract-request](images/retract-csp-creation-request.png)</kbd>
 
-## Approve CSP account creation request
+## Approve or reject CSP account creation request
 
 When a Tenant Admin or Tenant Manager submits a CSP account creation request, the Tenant Managers assigned as approvers in the request will be notified via email to process the request.
 Approving Tenant Manager reviews the request details before approving or rejecting the CSP account creation.
@@ -82,7 +82,7 @@ Approving Tenant Manager reviews the request details before approving or rejecti
 > **Note:**
 > A request is processed if one of the assigned approvers approves or rejects the request.
 
-**To approve or reject CSP account creation request:**
+**To approve or reject a CSP account creation request:**
 
 1. [Log in to the Cloud Management portal](log-in-to-cmp).
 2. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.

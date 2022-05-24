@@ -3,7 +3,7 @@
 Tenant Manager, Tenant Admin and Tenant Billing Admin of the tenant account can manage the billing account.
 
 - [View tenant billing account details](#view-tenant-billing-account-details)
-- [Accessing tenant billing account reports](#accessing-tenant-billing-account-reports)
+- [Download tenant billing account report](#download-tenant-billing-account-report)
 
 
 
@@ -16,10 +16,17 @@ Tenant Manager, Tenant Admin and Tenant Billing Admin of the tenant account can 
 5. Click **CSP Accounts** to view the list of CSP accounts charged under this billing account.
 <kbd>![billing-account-view-csp-accounts](images/billing-account-view-csp-accounts.png)</kbd>
 
-## Accessing tenant billing account reports
+## Download tenant billing account report
 1. [Log in to the Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**.
 3. Select **Billing** and go to **Billing Reports**.
-4. Locate the required billing report and click the ellipsis button ![elipses-button](images/elipses-button.png) in the row. You can download the billing report only in XLXS format.
+4. Locate the required billing report and click the ellipsis button ![elipses-button](images/elipses-button.png) in the row.
+
+> **Tip:** To narrow down your search, filter the reports by **Service Month**.
+
+5. Download the billing report.
 
 <kbd>![view-billing-reports](images/view-billing-reports.png)</kbd>
+
+> **Note:**
+> Currently, you can download the billing report in XLSX format.
