@@ -16,7 +16,9 @@
 >- If you already have a TechPass and need to onboard your internet device to SEED, [request SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).
 >- If you have issues in signing up for TechPass account or activating your TechPass account, raise a service request with the [TechPass support](https://go.goc.sg/techpass-sr).
 
-2. [Onboard your internet device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/onboard-device-to-seed) if you want to access CMP from it.
+1. [ITSM project](support/create-itsm-project).
+1. If you want to access CMP from it, [Onboard your internet device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/onboard-device-to-seed).
+
 
 **Next steps**:
 
@@ -33,5 +35,7 @@
 - [GCC 2.0 Workshops](https://docs.developer.tech.gov.sg/docs/gcc-20-workshops/#/)
 - [GCC 2.0 Tech Talks](https://docs.developer.tech.gov.sg/docs/gcc-2-tech-talks/#/)
 - [General GCC 2.0 Information](https://sgdcs.sgnet.gov.sg/sites/tech/SNDigiGov/CentralICTServices/MHI/Pages/GCC-2.0.aspx)
+- If you have any onboarding issues or resource provisioning issues in GCC 2.0, you need to [raise an incident support request from GCC 2.0 ITSM project](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/support).
+- If you have issues with your CSP or their services, raise incident support tickets with your respective CSP.
 
 > **Note:** You can access some of the resources listed under **Additional resources** only from a GSIB device.

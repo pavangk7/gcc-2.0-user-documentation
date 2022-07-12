@@ -7,3 +7,4 @@
 - [Manage root email mailing list](manage-root-email-mailing-list)
 - [Manage tenant billing account](manage-tenant-billing-account)
 - [Glossary](glossary)
+- [Support](support/support-channels)
