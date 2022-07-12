@@ -10,14 +10,14 @@
 
 **Prerequisites to access CMP:**
 
-1. From your non-SE GSIB device, go to [TechPass portal](https://portal.techpass.gov.sg/) and sign up for [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines). If you need to access CMP from the agency provided internet device, request SEED provisioning while signing up for TechPass.
+1. From your non-SE GSIB device, go to [TechPass portal](https://portal.techpass.gov.sg/) and sign up for [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines). If you need to access CMP or SGTS resources from the agency-provided internet device, request SEED provisioning while signing up for TechPass.
 
 >**Notes:**
 >- If you already have a TechPass and need to onboard your internet device to SEED, [request SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).
 >- If you have issues in signing up for TechPass account or activating your TechPass account, raise a service request with the [TechPass support](https://go.goc.sg/techpass-sr).
 
 2. [ITSM project](support/create-itsm-project).
-3. If you want to access CMP from it, [Onboard your internet device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/onboard-device-to-seed).
+3. If you want to access CMP or SGTS resources from the agency-provided internet device, [onboard your internet device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/onboard-device-to-seed).
 
 
 **Next steps**:
