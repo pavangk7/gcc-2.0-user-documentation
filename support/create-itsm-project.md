@@ -14,10 +14,8 @@ GCC 2.0 users must have a GCC 2.0 project on ITSM. This is a prerequisite to rai
 3. In the **Create Project Profile** page, specify the required details.
 
 > **Note**:
->
-> Enter **GCC 2.0 &lt;tenant name&gt;** as the **Project Name**. For example, *GCC 2.0 GovTech*.
->
-> Select **GCC** as the **Hosting Environment** and **GCC 2.0** as **Support Organisation**.
+>- Enter **GCC 2.0 &lt;tenant name&gt;** as the **Project Name**. For example, *GCC 2.0 GovTech*.
+>- Select **GCC** as the **Hosting Environment** and **GCC 2.0** as **Support Organisation**.
 
 4. Click **Submit**.
 
@@ -25,5 +23,5 @@ When this project is available on ITSM, GCC 2.0 users in your agency can use it 
 
 **Related topics**:
 - [GCC 2.0 support](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/support)
-- [Raise an incident request](raise-an-incident-request)
-- [Raise service request](raise-a-service-request)
+- [Raise an incident request](support/raise-an-incident-request)
+- [Raise service request](support/raise-a-service-request)

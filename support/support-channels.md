@@ -8,4 +8,4 @@ Agencies that wish to onboard to GCC 2.0 will need a GCC 2.0 project on ITSM. Th
 Related links:
 - [Create ITSM project for GCC 2.0](support/create-itsm-project)
 - [Raise an incident request](support/raise-an-incident-request)
-- [Raise service request](support/raise-service-request)
+- [Raise service request](support/raise-a-service-request)

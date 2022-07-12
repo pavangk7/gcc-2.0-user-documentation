@@ -7,8 +7,7 @@ This article guides how to raise an incident support request on ITSM for GCC 2.0
 1. Go to **Project** > ***GCC 2.0 &lt;agency name&gt;*** > **Incidents**.
 
 > **Note**
-> If you are unable to locate the ***GCC 2.0 &lt;agency name&gt;***, go to **Project** > **Requests**> **Submit Request**  
-If your agency does not have a GCC 2.0 project on ITSM, refer to [Create ITSM project](create-itsm-project)
+>- If your agency does not have a GCC 2.0 project on ITSM, you will not see the **project** tab. Refer to [Create ITSM project](support/create-itsm-project).
 
 3. In **Active Incidents**, select **Report Incident**.
 
@@ -18,4 +17,4 @@ If your agency does not have a GCC 2.0 project on ITSM, refer to [Create ITSM pr
 
 **Related topics**:
 - [GCC 2.0 support](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/support)
-- [Raise service request](raise-a-service-request)
+- [Raise service request](support/raise-a-service-request)
