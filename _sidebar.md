@@ -1,4 +1,4 @@
-- [Cloud Management portal for GCC 2.0](overview)
+- [Cloud Management Portal for GCC 2.0](overview)
 - [Log in to CMP](log-in-to-cmp)
 - [Create tenant account](create-tenant-account)
 - [Manage additional tenant account users](manage-additional-tenant-account-users)
@@ -6,5 +6,6 @@
 - [Manage CSP account users](manage-csp-account-users)
 - [Manage root email mailing list](manage-root-email-mailing-list)
 - [Manage tenant billing account](manage-tenant-billing-account)
+ - [Review your billing report](review-your-billing-report) 
 - [Glossary](glossary)
 - [Support](support/support-channels)

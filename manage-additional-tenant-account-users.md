@@ -13,7 +13,7 @@ Tenant Manager and Tenant Admin can manage the tenant account by doing the follo
 Tenant Manager and Tenant Admin of the tenant account can view and manage the tenant account users.
 
 **To view and manage tenant account users**:
-1. Log in to the [Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+1. Log in to the [Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**.
 3. Select **Users** to view the list of users.
 4. You may do the following:
@@ -34,9 +34,9 @@ When a tenant account is created, it will have only two users, and they are the 
 
 > **Note:** Tenant Managers can submit a request to add additional tenant users provided there are more than one Tenant Manager for the account as the request has to be approved by another Tenant Manager.
 
-**To add additional users to a tenant account:**
+**To add additional users to a tenant account**
 
-1. [Log in to the Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+1. [Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Click **Manage** on the tenant account.
 <kbd>![view-tenant-account-from-dashboard](images/view-tenant-account-users-01.png)</kbd>
 <!--<kbd>![add-additioal-user-manage-account](images/add-additioal-user-manage-account.png)</kbd>-->
@@ -74,8 +74,8 @@ Requestor may retract a request and CMP allows this if the request is yet to be 
 
 When you retract a request, you may have to provide a reason for retracting the request and the request status changes from **Pending** to **Cancelled** and will be listed under **Notifications** > **Approvals** > **Cancelled**.
 
-**To retract the additional tenant account user request:**
-1. [Log in to the Cloud Management portal](log-in-to-cmp).
+**To retract the additional tenant account user request**
+1. [Log in to the Cloud Management Portal](log-in-to-cmp).
 1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
 1. Select **Pending** and then go to the **Sent** tab to view requests submitted by you and pending approval.
@@ -94,9 +94,9 @@ When a request to add tenant account users is submitted, the assigned Tenant Man
 > **Note:**
 > A request is considered to be processed if one of the assigned Tenant Manager approves or rejects the request.
 
-**To approve or reject the additional tenant account user request:**
+**To approve or reject the additional tenant account user request**
 
-1. [Log in to the Cloud Management portal](log-in-to-cmp) as **Tenant Manager**.
+1. [Log in to the Cloud Management Portal](log-in-to-cmp) as **Tenant Manager**.
 1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
 1. Select **Pending** and then go to the **Received** tab to view requests that are waiting for your approval.

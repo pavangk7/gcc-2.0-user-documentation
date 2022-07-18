@@ -10,7 +10,7 @@
 - [Approve or reject add cloud user request](#approve-or-reject-add-cloud-user-request)
 
 If a request is approved, the new users are added to the CSP account and their status changes from **Pending** to **Enabled**.
->- After the cloud users are added to the CSP account, it may take up to one hour to assign all the access rights to a newly created CSP user account. So as a cloud user, if you are facing difficulties to launch your console or portal of your cloud service provider, try again after sometime.
+>- After the cloud users are added to the CSP account, it may take up to one hour to assign all the access rights to a newly created CSP user account. So as a cloud user, if you are facing difficulties to launch your console or Portal of your cloud service provider, try again after sometime.
 
 -   Once you have been added as a Cloud Admin to an AWS account, the
     \'Launch console\' option will now appear to you in the Tenant
@@ -69,7 +69,7 @@ Any compartments that your system requires to have a connection back to
 the Government Enterprise Network (GEN) or Common Services (CS) will
 have to be created via CMP.
 
-To submit a Create Compartment request:
+To submit a Create Compartment request
 
 -   Log in to CMP to access the Tenant Dashboard either as
 
@@ -197,7 +197,7 @@ Sample of Create Compartment approval request email:
 
 > \[WIP -- TBC later\]
 
-To approve the request as Tenant Manager:
+To approve the request as Tenant Manager
 
 -   Login to CMP
 

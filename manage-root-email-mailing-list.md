@@ -10,7 +10,7 @@ Tenant Manager and Tenant Admin of the tenant account can manage the recipients 
 
 
 ## Add recipients to mailing list
-1. Log in to the [Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+1. Log in to the [Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**. Available CSP accounts are listed on the **CSP Accounts** page.
 3. Locate the required CSP account and click **Manage**.
 4. Go to **Mailing List** > **Add New**.
@@ -23,7 +23,7 @@ Tenant Manager and Tenant Admin of the tenant account can manage the recipients 
 <kbd>![mailing-list-submit](images/mailing-list-submit.png)</kbd>
 
 ## Verify your mailing list recipients
-1. Log in to the [Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+1. Log in to the [Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**. Available CSP accounts are listed on the **CSP Accounts** page.
 3. Locate the required CSP account and click **Manage**.
 4. Go to **Cloud account Details** and copy the **Root Account Email** displayed.
@@ -31,7 +31,7 @@ Tenant Manager and Tenant Admin of the tenant account can manage the recipients 
 <kbd>![root-account-verify-mailing-list](images/root-account-verify-mailing-list.png)</kbd>
 
 ## Remove recipients from mailing list
-1. Log in to the [Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+1. Log in to the [Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**. Available CSP accounts are listed on the **CSP Accounts** page.
 3. Locate the required CSP account and click **Manage**.
 4. Go to **Mailing List**.

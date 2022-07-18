@@ -21,9 +21,9 @@ Topics:
 ## Request for a tenant account
 By default, the public officer who requests for the tenant account will be the Tenant Manager and has to complete the following steps.
 
-**To submit a tenant account creation request:**
+**To submit a tenant account creation request**
 
-1. [Log in to the Cloud Management portal](log-in-to-cmp).
+1. [Log in to the Cloud Management Portal](log-in-to-cmp).
 
 2. In the **Dashboard**, click **Create New Tenant**.
 
@@ -81,7 +81,7 @@ By default, the public officer who requests for the tenant account will be the T
 | **Contact Number** | Enter the phone number of the public officer who receives the invoice. |
 | **Email Address** | Enter the TechPass ID (organisation email address) of the public officer who receives the invoice. |
 | **Cost Center**  | This is applicable only for GovTech tenant accounts. Enter the cost center code for your agency. This code will be used by the Finance for internal GovTech inter-department charging/journal entry.|
-| **Payment Mode (for agencies)** | This is applicable for agencies other than GovTech. Choose one of the following payment modes. <ul><li>GIRO - Choose this to auto debit the billing amount from your agency's designated bank account on the invoice due date.</li><li>PUBBS (Payment Under Block Billing System) - Choose this to auto debit the billing amount from the account activated on the PUBBS portal. The billing amount is deducted in two instalments with the first and second instalment dates falling on 15th and 24th of every month.</li><li>Interbank Transfer - Choose this to make the payment only after your agency initiates the payment.</li> |
+| **Payment Mode (for agencies)** | This is applicable for agencies other than GovTech. Choose one of the following payment modes. <ul><li>GIRO - Choose this to auto debit the billing amount from your agency's designated bank account on the invoice due date.</li><li>PUBBS (Payment Under Block Billing System) - Choose this to auto debit the billing amount from the account activated on the PUBBS Portal. The billing amount is deducted in two instalments with the first and second instalment dates falling on 15th and 24th of every month.</li><li>Interbank Transfer - Choose this to make the payment only after your agency initiates the payment.</li> |
 
 <kbd>![create-tenant-billing-details](images/create-tenant-billing-details.png)</kbd>
 
@@ -99,7 +99,7 @@ By default, the public officer who requests for the tenant account will be the T
 ## Approve or reject a tenant account creation request
 When a Tenant Manager submits a request to create a tenant account, the Chief Information Officer(CIO) or the designated CIO delegate of the agency receives an email to process this request via email.
 
-**To approve or reject a tenant account creation request:**
+**To approve or reject a tenant account creation request**
 1. Open the email that notified you about the new tenant account creation request.
 2. Review the submitted request details enclosed in this email.
 3. Reply to this email and in the first line of your reply, enter one of the supported response words.
@@ -118,7 +118,7 @@ If the request is approved, the tenant account is created and listed on the CMP 
 ## View tenant accounts
 Tenant Manager and Tenant Admin can view and manage the tenant account. They can [Manage additional tenant account users](manage-additional-tenant-account-users) for this account.
 
-**To view tenant accounts:**
-- [Log in to the Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+**To view tenant accounts**
+- [Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 
 <kbd>![view-tenant-account-from-dashboard](images/view-tenant-account-users-01.png)</kbd>

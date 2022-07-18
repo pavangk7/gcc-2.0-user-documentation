@@ -1,14 +1,14 @@
 # GCC glossary
 **Cloud Admin**
-Public officers and vendors or contractors can be assigned as a Cloud Admin. They can access the cloud console or portal from GCC 2.0 CMP to do the following:
+Public officers and vendors or contractors can be assigned as a Cloud Admin. They can access the cloud console or Portal from GCC 2.0 CMP to do the following:
 - manage cloud configuration
 - manage cloud resources.
 
 **Cloud Assume Role**
-Users with this role can access the cloud console or portal to create custom IAM roles for their agencies.
+Users with this role can access the cloud console or Portal to create custom IAM roles for their agencies.
 
 **Cloud Billing**
-Public officers and vendors or contractors can be assigned as a cloud billing admin who can access the cloud console or portal from GCC 2.0 CMP to administrate billing operations of the CSP account.
+Public officers and vendors or contractors can be assigned as a cloud billing admin who can access the cloud console or Portal from GCC 2.0 CMP to administrate billing operations of the CSP account.
 
 **Cloud Developer**
 Users with this role have administrative access with few limitations defined for IAM, Security and Networking.
@@ -17,18 +17,18 @@ Users with this role have administrative access with few limitations defined for
 While this user has operations permissions and can control resources, they can't increase their own privileges or change networking frameworks.
 
 **Cloud Network Admin (Internet)**
-This user can access the cloud console or portal from GCC 2.0 CMP to do the following:
+This user can access the cloud console or Portal from GCC 2.0 CMP to do the following:
 - manage day-to-day VPC level networking tasks such as create and maintain connectivity and infrastructure including manage routing, subnets, VPCs and VPC endpoints.
 - create and maintain connectivity external to VPCs and accounts including, Amazon Virtual Private Network (VPN), Internet Gateways (IGW), and AWS Direct Connect.
 
 **Cloud Network Admin (Intranet)**
-This user can access the cloud console or portal from GCC 2.0 CMP to manage day-to-day VPC level networking tasks such as creating and maintaining connectivity and infrastructure including managing routing, subnets, VPCs and VPC endpoints.
+This user can access the cloud console or Portal from GCC 2.0 CMP to manage day-to-day VPC level networking tasks such as creating and maintaining connectivity and infrastructure including managing routing, subnets, VPCs and VPC endpoints.
 
 **Cloud Security Auditor**
 This user has a read-only access to log data and other configuration data of your cloud resources.
 
 **Cloud SIRO**
-Only public officers can be assigned as a Cloud SIRO. They can access the cloud console or portal from GCC 2.0 CMP to manage security findings from services such as AWS Security Hub.
+Only public officers can be assigned as a Cloud SIRO. They can access the cloud console or Portal from GCC 2.0 CMP to manage security findings from services such as AWS Security Hub.
 
 Security incident response permission set used in the case of a cyber investigation and/or incident response triage. This permission set should not have full administrative access, but rather it should have least privilege access to conduct a cyber investigation.
 
@@ -65,7 +65,7 @@ Tenant Admin can do the following:
 - submit requests to add additional tenant account users
 - manage the tenant account users and their roles
 - manage tenant billing accounts
-- create and manage CSP account users and their console or portal roles.
+- create and manage CSP account users and their console or Portal roles.
 
 **Tenant Billing Admin**
 Administrator of Tenant Billing Accounts. Only a public officer can be a Tenant Billing Admin. If needed, agencies can assign a dedicated staff to manage the Tenant Account billing, they can assign a user for this role. The Tenant Billing Admin can create and manage tenant billing account details.
