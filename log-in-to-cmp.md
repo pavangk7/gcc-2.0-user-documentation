@@ -1,6 +1,6 @@
-# Log in to the Cloud Management portal
+# Log in to the Cloud Management Portal
 
-1. From a non-SE GSIB or GMD, log in to the [GCC 2.0 Cloud Management portal](https://cmp.gcc.gov.sg).
+1. From a non-SE GSIB or GMD, log in to the [GCC 2.0 Cloud Management Portal](https://cmp.gcc.gov.sg).
 2. Choose or enter your TechPass ID which is your organisation email address.
 
 <kbd>![log-in-to-cmp](images/choose-techpass-account-test.png)</kbd>
@@ -20,7 +20,11 @@ You will now be prompted to approve your TechPass sign-in.
 
 <kbd>![log-in-to-cmp](images/gcc-2.0-cmp-log-in.png)</kbd>
 
-You are now successfully logged in to CMP.
+You are now successfully logged in to CMP and you can now view your Dashboard.
+
+> **Note**:
+> You will be able to view only those tenant accounts to which you are assigned as Tenant Cloud Admin.
+
 
 **Next steps**:
 

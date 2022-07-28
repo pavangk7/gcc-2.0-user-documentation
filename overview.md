@@ -1,6 +1,6 @@
-# About Cloud Management portal
+# About Cloud Management Portal
 
-[GCC 2.0](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/) has a Cloud Management portal(CMP) which is a web-based console for agencies to centrally manage their GCC 2.0 tenant accounts, cloud accounts and their users. While public officers onboarded to GCC 2.0 can request for tenant and cloud accounts using CMP, authorised users can manage these accounts and their users from CMP.
+[GCC 2.0](https://docs.developer.tech.gov.sg/docs/overview-of-gcc-version-2/#/) has a Cloud Management Portal(CMP) which is a web-based console for agencies to centrally manage their GCC 2.0 tenant accounts, cloud accounts and their users. While public officers onboarded to GCC 2.0 can request for tenant and cloud accounts using CMP, authorised users can manage these accounts and their users from CMP.
 
 ## Supported devices
 - Non-SE GSIB devices
@@ -10,7 +10,7 @@
 
 **Prerequisites to access CMP:**
 
-1. From your non-SE GSIB device, go to [TechPass portal](https://portal.techpass.gov.sg/) and sign up for [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines). If you need to access CMP or SGTS resources from the agency-provided internet device, request SEED provisioning while signing up for TechPass.
+1. From your non-SE GSIB device, go to [TechPass Portal](https://Portal.techpass.gov.sg/) and sign up for [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines). If you need to access CMP or SGTS resources from the agency-provided internet device, request SEED provisioning while signing up for TechPass.
 
 >**Notes:**
 >- If you already have a TechPass and need to onboard your internet device to SEED, [request SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).

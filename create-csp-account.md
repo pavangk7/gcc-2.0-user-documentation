@@ -14,12 +14,12 @@ Generally, Tenant Admins request for CSP accounts. Tenant Manager can also reque
 
 > **Important note:** Your cloud account will be pre-setup with certain services and charged accordingly. For example, if you are creating an AWS account, AWS Security Hub will be turned on to meet the security requirements, and you will be charged for it immediately when the account gets created.
 
-**To submit a CSP account creation request:**
-1. [Log in to the Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+**To submit a CSP account creation request**
+1. [Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**.
 <!--<kbd>![view-tenant-account-from-dashboard](images/view-tenant-account-users-01.png)</kbd>-->
 3. Select **CSP** and click **Create New Account**.
-5. In the **Create New Account** page, specify the required **Account Details** and click **Next**.
+5. On the **Create New Account** page, specify the required **Account Details** and click **Next**.
 
 | <div style="width:250px">Field Name</div>  | <div style="width:200px">Description</div> |
 | :------------------------------------------ | :------------- |
@@ -59,8 +59,8 @@ Requestor may retract a submitted request that is pending approval for the follo
 
 When you retract a request, you may have to provide a reason for retracting the request and the request status changes from **Pending** to **Cancelled** and will be listed under **Notifications** > **Approvals** > **Cancelled**.
 
-**To retract a CSP account creation request:**
-1. [Log in to the Cloud Management portal](log-in-to-cmp).
+**To retract a CSP account creation request**
+1. [Log in to the Cloud Management Portal](log-in-to-cmp).
 2. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
 3. Select **Pending** and then go to the **Sent** tab to view requests submitted by you and pending approval.
@@ -82,9 +82,9 @@ Approving Tenant Manager reviews the request details before approving or rejecti
 > **Note:**
 > A request is processed if one of the assigned approvers approves or rejects the request.
 
-**To approve or reject a CSP account creation request:**
+**To approve or reject a CSP account creation request**
 
-1. [Log in to the Cloud Management portal](log-in-to-cmp).
+1. [Log in to the Cloud Management Portal](log-in-to-cmp).
 2. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
 3. Select **Pending** and then go to the **Received** tab to view requests that are waiting your approval.
@@ -106,8 +106,8 @@ Approving Tenant Manager reviews the request details before approving or rejecti
 ## View CSP account
 Tenant Manager and Tenant Admin can view and manage users of a CSP account.
 
-**To view CSP accounts:**
+**To view CSP accounts**
 
-1. [Log in to the Cloud Management portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
+1. [Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**.
 3. Select **CSP** to view the list of cloud accounts for this tenant account.
