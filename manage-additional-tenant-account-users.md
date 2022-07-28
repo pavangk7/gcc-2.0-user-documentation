@@ -42,7 +42,7 @@ When a tenant account is created, it will have only two users, and they are the 
 <!--<kbd>![add-additioal-user-manage-account](images/add-additioal-user-manage-account.png)</kbd>-->
 3. Go to **Users** and click **Add New Users**.
 <kbd>![add-new-user](images/add-new-user.png)</kbd>
-4. In the **Add Users** page, specify the required details and click **Next**.
+4. On the **Add Users** page, specify the required details and click **Next**.
 
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|

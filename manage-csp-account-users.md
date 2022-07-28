@@ -29,7 +29,7 @@ Tenant Admin and Tenant Manager can add users to a CSP account.
 2. Locate the required tenant account and click **Manage**. Available CSP accounts are listed on the **CSP Accounts** page.
 3. Locate the required CSP account and click **Manage**.
 4. Go to **Cloud Users** and click **Add Cloud Users**.
-5. In the **Add Cloud User** page, specify the required details for the required users and click **Next**.
+5. On the **Add Cloud User** page, specify the required details for the required users and click **Next**.
 
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|

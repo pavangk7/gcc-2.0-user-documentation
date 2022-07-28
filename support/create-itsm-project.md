@@ -11,7 +11,7 @@ GCC 2.0 users must have a GCC 2.0 project on ITSM. This is a prerequisite to rai
 1. Go to [ITSM Portal](https://itsm.sgnet.gov.sg/sp3).
 
 2. Click **Project** >> **New Project**.
-3. In the **Create Project Profile** page, specify the required details.
+3. On the **Create Project Profile** page, specify the required details.
 
 > **Note**:
 >- Enter **GCC 2.0 &lt;tenant name&gt;** as the **Project Name**. For example, *GCC 2.0 GovTech*.

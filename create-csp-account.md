@@ -19,7 +19,7 @@ Generally, Tenant Admins request for CSP accounts. Tenant Manager can also reque
 2. Locate the required tenant account and click **Manage**.
 <!--<kbd>![view-tenant-account-from-dashboard](images/view-tenant-account-users-01.png)</kbd>-->
 3. Select **CSP** and click **Create New Account**.
-5. In the **Create New Account** page, specify the required **Account Details** and click **Next**.
+5. On the **Create New Account** page, specify the required **Account Details** and click **Next**.
 
 | <div style="width:250px">Field Name</div>  | <div style="width:200px">Description</div> |
 | :------------------------------------------ | :------------- |
