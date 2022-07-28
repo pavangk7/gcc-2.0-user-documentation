@@ -63,12 +63,12 @@ The report displays the following information.
 | **Service Month** | Month for which this billing report is generated. |
 | **Tenant Billing Account** | Your tenant billing account name. |
 | **Tenant Billing Account ID** | Unique ID for this tenant billing account. |
-| **Attention To** | Public officer to whom this report is addressed to.<br>While creating the tenant account, the Tenant Manager assigns a public officer to be notified for billing matters. Name of that public officer is displayed here.|
+| **Attention To** | Public officer to whom this report is assigned.<br>While creating the tenant account, the Tenant Manager assigns a public officer to be notified for billing matters. The name of that public officer is displayed here.|
 | **Conversion Rate** | Conversion rate as provided by MAS to convert the cost from USD to SGD for the **Service Month**. |
 | **CSP Account** | Cloud account ID |
 | **CSP Account Alias** | Alias name provided by your agency for this cloud account. |
 | **Service Charges** | Service charge of the CSP as displayed on the Bill Details. |
-| **EDP Discount (to return to GovTech GCC)** | EDP is the  enterprise discount program offered by your CSP. This discount is entrusted to GovTech as this is a part of the SMF you pay to GovTech GCC service. |
+| **EDP Discount (to return to GovTech GCC)** | EDP is the enterprise discount program offered by your CSP. This discount is entrusted to GovTech as this is a part of the SMF you pay to GovTech GCC service. |
 | **Support** | Support cost as charged by the cloud service provider. |
 | **Marketplace** | Cost as charged by cloud service provider. |
 | **SMF (3%)** | This is the Service Management Fee charged by GCC.<br>It is 3% of your total service charge in SGD + EDP Discount that is entrusted to GovTech. |
@@ -124,7 +124,7 @@ In this document, as an example, we explain how to analyse your cloud service us
 
 By default, the console shows the **AWS Billing Dashboard** page. To understand what is displayed on this page, visit [AWS documentation on Billing Dashboard](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/view-billing-dashboard.html).
 
-9. In the navigation pane, choose **Bills**. By default, the current month bill detail is displayed.
+9. In the navigation pane, choose **Bills**. By default, the current month's bill detail is displayed.
 
 <kbd>![billing-dashboard](images/view-bills.png)</kbd>
 
@@ -144,7 +144,7 @@ By default, the console shows the **AWS Billing Dashboard** page. To understand 
 
 <kbd>![cost-explorer-filters](images/cost-explorer-filters.png)</kbd>
 
-13. Select the required date range and indicate if you want an hourly, daily, or a monthly breakdown of cost in a graph (line, bar, or stack) for the selected **Group by** filter criterion.
+13. Select the required date range and indicate if you want an hourly, daily, or monthly cost breakdown in a graph (line, bar, or stack) for the selected **Group by** filter criterion.
 
 <kbd>![date-range](images/date-range.png)</kbd>
 
