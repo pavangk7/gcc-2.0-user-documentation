@@ -20,7 +20,11 @@ You will now be prompted to approve your TechPass sign-in.
 
 <kbd>![log-in-to-cmp](images/gcc-2.0-cmp-log-in.png)</kbd>
 
-You are now successfully logged in to CMP.
+You are now successfully logged in to CMP and you can now view your Dashboard.
+
+> **Note**:
+> You will be able to view only those tenant accounts to which you are assigned as Tenant Cloud Admin.
+
 
 **Next steps**:
 

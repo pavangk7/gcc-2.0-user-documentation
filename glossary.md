@@ -68,7 +68,9 @@ Tenant Admin can do the following:
 - create and manage CSP account users and their console or Portal roles.
 
 **Tenant Billing Admin**
-Administrator of Tenant Billing Accounts. Only a public officer can be a Tenant Billing Admin. If needed, agencies can assign a dedicated staff to manage the Tenant Account billing, they can assign a user for this role. The Tenant Billing Admin can create and manage tenant billing account details.
+Administrator of Tenant Billing Accounts. Tenant Billing Admin can manage tenant billing account details.
+
+This is an optional role for tenant accounts and may be assigned to a public officer if your agency wants a dedicated staff to manage the billing.
 
 
 **Tenant Manager**
