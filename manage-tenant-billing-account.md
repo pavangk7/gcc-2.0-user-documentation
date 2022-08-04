@@ -6,7 +6,6 @@ Tenant Manager, Tenant Admin and Tenant Billing Admin of the tenant account can 
 - [Download tenant billing account report](#download-tenant-billing-account-report)
 
 
-
 ## View tenant billing account details
 1. [Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**.
