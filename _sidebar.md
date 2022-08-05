@@ -1,4 +1,5 @@
 - [Cloud Management Portal for GCC 2.0](overview)
+- [What's new](what-s-new)
 - [Log in to CMP](log-in-to-cmp)
 - [Create tenant account](create-tenant-account)
 - [Manage additional tenant account users](manage-additional-tenant-account-users)
