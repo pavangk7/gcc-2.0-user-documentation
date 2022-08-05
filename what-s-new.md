@@ -15,11 +15,3 @@ Date: 08 August 2022
 Included documentation for viewing GCC billing report</summary>
 [Billing report documentation](billing-report-docs/overview-billing-report) is now available for agencies to verify if their CSP costs incurred matches with their cloud service usage.
 </details>
-
-
-
-
-
-| Date | Article | Change |
-|:----- |:------ |:------ |
-|  |  | Guide to use billing report included. |
