@@ -6,6 +6,6 @@
 - [Manage CSP account users](manage-csp-account-users)
 - [Manage root email mailing list](manage-root-email-mailing-list)
 - [Manage tenant billing account](manage-tenant-billing-account)
-- [View billing report](view-billing-report)
+  - [GCC billing report](billing-report-docs/overview-billing-report.md)
 - [Glossary](glossary)
 - [Support](support/support-channels)
