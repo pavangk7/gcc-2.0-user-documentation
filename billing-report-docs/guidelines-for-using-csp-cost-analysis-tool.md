@@ -1,4 +1,4 @@
-# Guidelines for using CSP cost analysis tool
+# Guidelines for using cost analysis tools of your CSP
 
 Authorised users can analyse your cloud service cost using the cost analysis tools provided by your CSP.
 
@@ -29,7 +29,7 @@ In this document, as an example, we explain how to analyse your cloud service us
 
 <kbd>![management-console](../images/aws-management-console.png)</kbd>
 
-7. In the search box on the navigation bar, enter **Billing**.
+7. Search for **Cost Explorer** or open it if it is already available   
 
 <kbd>![billing-service](../images/go-to-billing-service.png)</kbd>
 

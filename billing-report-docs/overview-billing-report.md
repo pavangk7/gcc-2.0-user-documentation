@@ -1,6 +1,6 @@
 # GCC billing report
 
-This section helps you understand how to view the billing report for your tenant accounts and validate if the CSP costs associated with the actual cloud usage are accurate.
+This section helps you understand how to view the billing report for your tenant accounts and validate if the CSP costs associated with your actual cloud usage are accurate.
 
 If there is any discrepancy in the costs listed on the billing report, agencies can raise a dispute with their CSP to resolve them.
 
@@ -23,4 +23,5 @@ In this article, you learn how to:
 
 - [View billing report](billing-report-docs/view-your-agency-billing-report)
 - [Understand billing report](billing-report-docs/understand-gcc-billing-report)
-- [Guidelines for using CSP tools](billing-report-docs/guidelines-for-using-csp-cost-analysis-tool)
+- Guidelines for using CSP tools
+  - [Guidelines for using cost analysis tools](billing-report-docs/guidelines-for-using-csp-cost-analysis-tool)
