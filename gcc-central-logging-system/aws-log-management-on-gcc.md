@@ -1,8 +1,12 @@
-# AWS log management on GCC 2.0
+# AWS GCC 2.0 central logging system
 
-## AWS Logging Architecture Diagram
+<!--Following is the high-level architecture diagram of AWS GCC 2.0 central logging system.-->
 
-<kbd>![central-log-architecture-diagram-aws](images/central-logs-aws/central-log-aws-architecture-diagram-numbered.png)</kbd>
+<kbd>![central-log-architecture-diagram-aws](/images/central-log-aws-architecture-diagram-numbered.png)</kbd>
+
+<figcaption align = "center"><b>High-level architecture for AWS GCC 2.0 central logging</b></figcaption>
+
+
 
 || Service| Description|
 | --- | ------------- |:-------------|
@@ -25,16 +29,16 @@
 7.	From the navigation pane, choose **Log groups**.
 8.	In the list of log groups, choose the name of the log group that you want to pipe to Central Log S3 Buckets.
 9.	Go to **Subscription filters** tab and select **Create** > **Create Kinesis Firehose subscription filter**.
-<kbd>![create-kfh-subscription-filter-1](images/central-logs-aws/create-kinesis-firehose-subscription-filter.png)</kbd>
+<kbd>![create-kfh-subscription-filter-1](/images/create-kinesis-firehose-subscription-filter.png)</kbd>
 10.	Go to **Choose destination** and do the following:
 
   a)	Select **Current account** as the **Destination account**.
 
   b)	Select **clm-central-logging-firehose** as the **Kinesis Firehose delivery stream**.
 
-<kbd>![create-kfh-subscription-filter-2](images/central-logs-aws/create-kinesis-firehose-subscription-filter-2.png)</kbd>
+<kbd>![create-kfh-subscription-filter-2](/images/create-kinesis-firehose-subscription-filter-2.png)</kbd>
 11.	Go to **Grant permission** and select **central-logging-cloudwatch-firehose-role** as the existing role.
-<kbd>![grant-permission](images/central-logs-aws/grant-permission.png)
+<kbd>![grant-permission](/images/grant-permission.png)
 12. Enter a **Subscription filter name**.
 
 > **Note**:
@@ -54,14 +58,14 @@
 3.	Click **Launch console**.
 4.	Go to your **AWS Account** and choose the required cloud account on which you have the agency_security_operations role.
 5.	Click **Management console**.
-![choose-aws-account](images/central-logs-aws/choose-aws-account.png)</kbd>
+![choose-aws-account](/images/choose-aws-account.png)</kbd>
 6.	Open **Amazon Kinesis** console by searching for or selecting **Kinesis**.
 7.	From the navigation pane, choose **Delivery Streams**.
 8.	Select **clm-central-logging-firehose**.
-<kbd>![select-clm-central-logging](images/central-logs-aws/select-clm-central-logging.png)</kbd>
+<kbd>![select-clm-central-logging](/images/select-clm-central-logging.png)</kbd>
 9. On **clm-central-logging-firehose**, choose the **Configuration** tab.
-<kbd>![delivery-stream-details](images/central-logs-aws/delivery-stream-details.png)</kbd>
+<kbd>![delivery-stream-details](/images/delivery-stream-details.png)</kbd>
 10.	Under the **Destination settings**, choose the specified S3 bucket link.
-<kbd>![destination-settings](images/central-logs-aws/destination-settings.png)</kbd>
+<kbd>![destination-settings](/images/destination-settings.png)</kbd>
 11.	Open o-csdezrhp47/ and search for the required AWS Account ID from the list to access the Logs.
-<kbd>![objects](images/central-logs-aws/objects.png)</kbd>
+<kbd>![objects](/images/objects.png)</kbd>

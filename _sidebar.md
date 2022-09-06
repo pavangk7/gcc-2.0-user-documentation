@@ -7,7 +7,7 @@
 - Manage
   - [CSP account users](manage-csp-account-users)
   - [Root email mailing list](manage-root-email-mailing-list)
-  - [Centralised logs and monitoring](manage-centralised-logs-and-monitoring)
+  - [Centralised logs and monitoring](gcc-central-logging-system/manage-centralised-logs-and-monitoring)
   - [Tenant billing account](manage-tenant-billing-account)
     - [GCC billing report](billing-report-docs/overview-billing-report.md)
 - [Glossary](glossary)
