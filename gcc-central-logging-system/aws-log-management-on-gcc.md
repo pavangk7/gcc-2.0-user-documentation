@@ -2,7 +2,7 @@
 
 <!--Following is the high-level architecture diagram of AWS GCC 2.0 central logging system.-->
 
-<kbd>![central-log-architecture-diagram-aws](gcc-central-logging-system/images/central-log-aws-architecture-diagram-numbered.png)</kbd>
+<kbd>![central-log-architecture-diagram-aws](/gcc-central-logging-system/images/central-log-aws-architecture-diagram-numbered.png)</kbd>
 
 
 
