@@ -29,14 +29,13 @@ In this document, as an example, we explain how to analyse your cloud service us
 
 <kbd>![management-console](../images/aws-management-console.png)</kbd>
 
-7. Search for **Cost Explorer** or open it if it is already available   
+<!--7. Search for **Cost Explorer** or open it if it is already listed in your Console.
 
-<kbd>![billing-service](../images/go-to-billing-service.png)</kbd>
+<kbd>![billing-service](../images/go-to-billing-service.png)</kbd>-->
 
-8. Choose **Billing** from the list of search results.
+7. Search for **Billing** or open it if it is already listed in your Console.
 
 <kbd>![billing-service](../images/choose-billing-services.png)</kbd>
-
 
 By default, the console shows the **AWS Billing Dashboard** page. To understand what is displayed on this page, visit [AWS documentation on Billing Dashboard](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/view-billing-dashboard.html).
 
