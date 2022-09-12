@@ -12,4 +12,3 @@
     - [GCC billing report](billing-report-docs/overview-billing-report.md)
 - [Glossary](glossary)
 - [Support](support/support-channels)
-- [Mermaid](mermaid)
