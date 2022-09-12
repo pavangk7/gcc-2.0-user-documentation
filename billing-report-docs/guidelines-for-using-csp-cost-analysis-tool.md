@@ -61,8 +61,12 @@ By default, the console shows the **AWS Billing Dashboard** page. To understand 
 9. Select the required date range.
 <kbd>![date-range](../images/date-range.png)</kbd>
 
-10. Go to **FILTERS** > **Charge Type** and we recommend you to exclude **Tax** apply this filter.
+10. Go to **FILTERS** > **Charge Type** and we recommend you to exclude **Tax** and apply this filter.
 <kbd>![exclude-tax](../images/aws-cost-explorer-exclude-tax.png)</kbd>
+
+11. Now verify if the information displayed here matches with the information on GCC 2.0 Billing report for that period.
+
+If there is any discrepancy, agencies can raise a dispute with their CSP to resolve them.
 
 <!--11. Scroll down below to view the same information in a table format.-->
 
