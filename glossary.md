@@ -81,13 +81,7 @@ Tenant Admins can submit a request to add the second Tenant Manager. Though Tena
 **Whole of Government(WOG) ID**
 WOG ID is the email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg* or *your_name<span>@</span>mof.gov.sg*. Public officers who onboard to SEED must have a WOG ID or account.
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
+
 
 ```mermaid
     C4Context
@@ -134,4 +128,7 @@ WOG ID is the email address belonging to the gov.sg domain. For example, *your_n
       UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
 
 
+
 ```
+
+-->
