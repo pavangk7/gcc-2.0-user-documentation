@@ -1,6 +1,11 @@
 # AWS GCC 2.0 central logging system
 
-<!--Following is the high-level architecture diagram of AWS GCC 2.0 central logging system.-->
+- GCC 2.0 offers a Central Log Repo, allowing agencies to centrally store their security-related logs such as Custom Logs and VPC Flow Logs for archival purposes and comply with the 12 months retention policy.
+- The GCC team centrally manages platform logs such as CloudTrail, Config, GuardDuty, Security Hub to store the Central Log Repos.
+- Logs are piped to a single Central Log Account, but different S3 buckets based on the log types.
+
+> **Note**:
+> Central Log Account refers to the AWS Account and Central Log Repo refers to the storage in that Account.
 
 <kbd>![central-log-architecture-diagram-aws](/gcc-central-logging-system/images/central-log-aws-architecture-diagram-numbered.png)</kbd>
 
@@ -17,7 +22,7 @@
 | 3 | **GuardDuty** | Managed by a central GuardDuty and configured to export log to central Log S3 bucket.|
 | 4 | **Security Hub** | Managed by a central Security Hub and configured to direct export log to central Log S3 bucket.|
 | 5 | **VPC Flow Logs and Custom Logs** | Logs such as workload and application logs are stored in CloudWatch Log group and will be piped to Kinesis Firehose using the **Subscription Filter**. |
-| 6 | **Kinesis Data Firehose**| Provisioned for tenant accounts by the GCC Team. |
+| 6 | **Kinesis Data Firehose**| GCC Team provisions this for the tenant accounts. |
 | 7  | **Kinesis Firehose** | Exports the logs to central Log S3 bucket.|
 
 ### Enable subscription filter to pipe custom logs to central log S3 buckets
