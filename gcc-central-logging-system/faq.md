@@ -5,7 +5,7 @@
 
 Yes, after migration you can still access your buckets in GCC 1.0.
 
-<hr /></details><br>
+</details><hr />
 
 <details><summary style="font-size:20px;font-weight:bold">After migrating agency's GCC 1.0 account to GCC 2.0, should agency continue to pay for GCC 1.0 data storage charges?</summary>
 
