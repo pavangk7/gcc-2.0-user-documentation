@@ -23,5 +23,3 @@ GovTech recommends agency to do a cost analysis between migrating data logs to G
 Note, agency will be billed for the data logs in GCC 1.0 and agency can still access their buckets on GCC 1.0.
 
 </hr></details><br>
-
- 
