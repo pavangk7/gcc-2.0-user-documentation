@@ -12,7 +12,7 @@ Yes, after migration you can still access your buckets in GCC 1.0.
 Yes, agency will be billed for the file objects stored in GCC 1.0 central log storage under their account. Based on IM8's one year data retention policy, objects in the GCC 1.0 central storage will be purged progressively.
 
 
-</hr></details><br>
+</details><hr />
 
 
 <details><summary style="font-size:20px;font-weight:bold">While migrating from GCC 1.0 to GCC 2.0, should agency migrate their data logs too?</summary>
@@ -22,4 +22,4 @@ GovTech recommends agency to do a cost analysis between migrating data logs to G
 
 Note, agency will be billed for the data logs in GCC 1.0 and agency can still access their buckets on GCC 1.0.
 
-</hr></details><br>
+</details><hr />
