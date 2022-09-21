@@ -1,6 +1,7 @@
 # What's new in GCC 2.0
 This page provides you with information about:
 
+
 - [latest documentation changes](#latest-documentation-changes)
 - Release notes
 - Announcements
