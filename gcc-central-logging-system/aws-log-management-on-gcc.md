@@ -15,15 +15,15 @@
 
 
 
-|| Service| Description|
-| --- | ------------- |:-------------|
-| 1 | **CloudTrail logs** | Managed by organisational CloudTrail and piped to central Log S3 bucket.|
-| 2 | **AWS Config** | Configured to direct export logs to central Log S3 bucket. |
-| 3 | **GuardDuty** | Managed by a central GuardDuty and configured to export log to central Log S3 bucket.|
-| 4 | **Security Hub** | Managed by a central Security Hub and configured to direct export log to central Log S3 bucket.|
-| 5 | **VPC Flow Logs and Custom Logs** | Logs such as workload and application logs are stored in CloudWatch Log group and will be piped to Kinesis Firehose using the **Subscription Filter**. |
-| 6 | **Kinesis Data Firehose**| GCC Team provisions this for the tenant accounts. |
-| 7  | **Kinesis Firehose** | Exports the logs to central Log S3 bucket.|
+|| Service| Description| Responsibility of |
+| --- | ------------- |:-------------|:----: |
+| 1 | **CloudTrail logs** | Managed by organisational CloudTrail and piped to central Log S3 bucket.| GovTech |
+| 2 | **AWS Config** | Configured to direct export logs to central Log S3 bucket. | GovTech |
+| 3 | **GuardDuty** | Managed by a central GuardDuty and configured to export log to central Log S3 bucket.| GovTech |
+| 4 | **Security Hub** | Managed by a central Security Hub and configured to direct export log to central Log S3 bucket.| GovTech |
+| 5 | **VPC Flow Logs and Custom Logs** | Logs such as workload and application logs are stored in CloudWatch Log group and are piped to Kinesis Firehose using the **Subscription Filter**. | Agency |
+| 6 | **Kinesis Data Firehose**| GCC Team provisions this for the tenant accounts. | Agency |
+| 7  | **Kinesis Firehose** | Exports the logs to central Log S3 bucket.| Agency |
 
 ### Enable subscription filter to pipe custom logs to central log S3 buckets
 
