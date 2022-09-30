@@ -48,7 +48,7 @@ Government furnished equipment is a device issued by a government agency.
 Government managed device. An internet device provided by government agency or a vendor when onboarded to SEED becomes a government managed device.
 
 **GSIB**
-Government standard image build is a standard operating environment (SOE) device issued by government. There are two types of GSIB devices: SE GSIB and non-SE GSIB devices.
+Government standard image build is a standard operating environment (SOE) device issued by government. There are two types of GSIB devices: Secret Email(SE) GSIB and non-SE GSIB devices.
 
 **TechPass**
 [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) is an Identity & Access Management (IAM) and  a single sign-on(SSO)solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
