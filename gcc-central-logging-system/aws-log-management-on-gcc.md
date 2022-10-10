@@ -25,7 +25,7 @@
 | 6 | **Kinesis Data Firehose**| GCC Team provisions this for the tenant accounts. | Agency |
 | 7  | **Kinesis Firehose** | Exports the logs to central Log S3 bucket.| Agency |
 
-### Enable subscription filter to pipe custom logs to central log S3 buckets
+## Enable subscription filter to pipe custom logs to central log S3 buckets
 
 1.	[Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2.	Locate the required tenant account and click **Manage**.
@@ -53,7 +53,7 @@
 
 13.	Click **Start streaming**.
 
-### Access custom logs piped to central S3 bucket
+## Access custom logs piped to central S3 bucket
 
 **Prerequisites**
 
