@@ -54,29 +54,6 @@ Tenant Admin and Tenant Manager can add users to a CSP account.
  >- The assigned approvers will be notified via email to process the request.
  >- To track the status of your submitted requests, go to Notifications![notifications-icon](images/notifications-icon.png) > **Approvals** and filter the list by **Pending** and **Sent**.
 
-### Cloud user role mapping
-
-The below table maps the cloud role in CMP to the role available on the CSP account.
-
-| Cloud roles in CMP  | Cloud roles in CSP account|
-| ------------- |:-------------:|
-| Cloud Admin      | right foo     |
-| Cloud Assume Role      | right bar     |
-| Cloud Billing      | right baz     |
-| Cloud Developer | |
-| Cloud Network Admin (Internet) | |
-| Cloud Network Admin (Intranet) | |
-| Cloud Ops | |
-| Cloud Security Auditor | |
-| Cloud SIRO | |
-| Cloud Support | |
-
-
-
-
-
-
-
 ## Retract CSP account user request
 Requestor may retract a request and CMP allows this if the request is yet to be processed. Some of the possible reason for retracting a request are:
 - requested approvers are not available
