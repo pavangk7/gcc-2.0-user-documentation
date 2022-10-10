@@ -1,4 +1,4 @@
 - **GCC 2.0 User Support**
-
+  - [support channels](support/support-channels)
 - **Back to main help**
   - [Back to main](/overview)
