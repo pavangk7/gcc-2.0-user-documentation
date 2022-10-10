@@ -53,17 +53,25 @@
 
 13.	Click **Start streaming**.
 
-### To access custom logs piped to central S3 bucket
+### Access custom logs piped to central S3 bucket
 
 **Prerequisites**
 
-- Agencies need **agency_security_operations** role to access central S3 bucket. Agencies can create a service request with [ITSM](https://itsm.sgnet.gov.sg/sp3) to obtain this role.
-- Before creating this service request, make sure your agency already has an [ITSM project for GCC 2.0](support/create-itsm-project).
+-  Only users with **Cloud Security Auditor** or equivalent role can access the logs stored in the central S3 bucket. Log in to CMP, ensure your cloud account has a user with this role.
+
+> **Note**:
+> Agency can assign the **Cloud Security Auditor** role to the cloud account through CMP. For more information, refer to [Add cloud users](manage-csp-account-users).
+
+**To access custom logs piped to central S3 bucket**
 
 1.	[Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2.	Locate the required tenant account and click **Manage**.
 3.	Click **Launch console**.
-4.	Go to your **AWS Account** and choose the required cloud account on which you have the agency_security_operations role.
+4.	Go to your **AWS Account** and choose the required cloud account on which you have the **agency_security_operations** role.
+
+> **Note**:
+> If you are a **Cloud Security Auditor**, you will be able to access the cloud console using **agency_security_operations** role.
+
 5.	Click **Management console**.
 ![choose-aws-account](/gcc-central-logging-system/images/choose-aws-account.png)</kbd>
 6.	Open **Amazon Kinesis** console by searching for or selecting **Kinesis**.

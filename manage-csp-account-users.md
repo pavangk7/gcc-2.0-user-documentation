@@ -25,32 +25,57 @@ Tenant Admin and Tenant Manager can add users to a CSP account.
 > Tenant Manager can submit this request only if there is more than one Tenant Manager for this tenant account.
 
 **To submit a request to add CSP account users**
-1. [Log in to the Cloud Management Portal](log-in-to-cmp).
-2. Locate the required tenant account and click **Manage**. Available CSP accounts are listed on the **CSP Accounts** page.
-3. Locate the required CSP account and click **Manage**.
-4. Go to **Cloud Users** and click **Add Cloud Users**.
-5. On the **Add Cloud User** page, specify the required details for the required users and click **Next**.
+
+1. In the CMP **Dashboard**, go to the required tenant account.
+1. Click **Manage**. CSP accounts linked to this tenant account are listed on the **CSP Accounts** page.
+1. Go to the required CSP account and click **Manage**.
+1. Go to **Cloud Users** and click **Add Cloud Users**.
+1. On the **Add Cloud User** page, specify the required details for the required users and click **Next**.
 
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|
-| **Role**      | Select a role for the cloud user.     |
+| **Role**      | Select a role for the cloud user. Following are the cloud roles available in the CMP portal:<br><br>- Cloud Admin<br>- Cloud Assume Role<br>- Cloud Billing<br>- Cloud Developer<br>- Cloud Network admin(Internet)<br>- Cloud Network admin(Intranet)<br>- Cloud Ops<br>- Cloud Security Auditor<br>- Cloud SIRO<br>- Cloud Support<br><br>Note: <br><br>- To know more about the permissions available for each role, refer to the [Glossary](glossary).<br>- To know more about the cloud user role mapping between CMP and the CSP console or portal, refer to the CMP cloud user role mapping table.   |
 | **Email**     | Type the first few characters of the TechPass ID, and select the required TechPass ID from the matching results. <br><br>- You can add users who have an active TechPass account. <br>- If you can't locate user by entering the email address, verify if the user has an active TechPass account.  |
 | **Name** | Displays the user name based on the TechPass ID selected as **Email**. |
 | **Phone Number** | Displays the phone number of the user if available. |
 | **Add another user** |  Click this to add another user. |
 
+
 <kbd>![add-cloud-user-01](images/add-cloud-user-01.png)</kbd>
 
-6. Select at least one Tenant Manager as the approver and if needed, specify additional information in **Remarks**.
-7. Click **Next**.
+1. Select at least one Tenant Manager as the approver and if needed, specify additional information in **Remarks**.
+1. Click **Next**.
 
 <kbd>![add-cloud-user-approver-02](images/add-cloud-user-approver-02.png)</kbd>
 
-9. Review the request details and click **Submit**.
+1. Review the request details and click **Submit**.
  > **Note:**
  >- To modify the details, click the required **Edit** links.
  >- The assigned approvers will be notified via email to process the request.
  >- To track the status of your submitted requests, go to Notifications![notifications-icon](images/notifications-icon.png) > **Approvals** and filter the list by **Pending** and **Sent**.
+
+### Cloud user role mapping
+
+The below table maps the cloud role in CMP to the role available on the CSP account.
+
+| Cloud roles in CMP  | Cloud roles in CSP account|
+| ------------- |:-------------:|
+| Cloud Admin      | right foo     |
+| Cloud Assume Role      | right bar     |
+| Cloud Billing      | right baz     |
+| Cloud Developer | |
+| Cloud Network Admin (Internet) | |
+| Cloud Network Admin (Intranet) | |
+| Cloud Ops | |
+| Cloud Security Auditor | |
+| Cloud SIRO | |
+| Cloud Support | |
+
+
+
+
+
+
 
 ## Retract CSP account user request
 Requestor may retract a request and CMP allows this if the request is yet to be processed. Some of the possible reason for retracting a request are:
