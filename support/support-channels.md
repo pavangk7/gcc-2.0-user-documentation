@@ -3,7 +3,7 @@
 ## General queries
 
 | Query Category  | Support Channel |
-| ------------- |:-------------|
+| ------------- |:------------------ |
 | For enquiries related to Cloud Adoption Team (CAT) activities      | [Ask_CAT@tech.gov.sg](mailto:Ask_CAT@tech.gov.sg)     |
 | For general enquiries related to GCC 2.0 and SG Tech Stack      | [Ask_CODEX@tech.gov.sg](mailto:Ask_CODEX@tech.gov.sg)    |
 | Other enquiries      | [Ask GovTech at ITSM Portal](https://itsm.sgnet.gov.sg/sp3?id=askgovtech) from your GSIB device     |
