@@ -1,5 +1,5 @@
 - **GCC 2.0 User Support**
-- General support
+- [General support](general-queries)
 - Service support
 - Create ITSM project
 - Incident support request

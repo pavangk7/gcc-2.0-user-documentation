@@ -1,6 +1,6 @@
 # Support
 
-## General queries
+## General support
 
 | Query Category  | Support Channel |
 | ------------- |:------------------ |
@@ -8,7 +8,7 @@
 | For general enquiries related to GCC 2.0 and SG Tech Stack      | [Ask_CODEX@tech.gov.sg](mailto:Ask_CODEX@tech.gov.sg)    |
 | Other enquiries      | [Ask GovTech at ITSM Portal](https://itsm.sgnet.gov.sg/sp3?id=askgovtech) from your GSIB device     |
 
-## Service queries
+## Service support
 
 To raise any GCC 2.0 incident or service support requests, agencies need a GCC 2.0 project on ITSM. Refer to [create ITSM project](#create-itsm-project).
 
