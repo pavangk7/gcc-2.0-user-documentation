@@ -11,9 +11,10 @@ GCC 2.0 has a Cloud Management Portal(CMP), which is a web-based console for age
 
 - [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) account, the identity and access management service.
 - [SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/) to securely access CMP from a non-GSIB device.
--  Your agency must have an [ITSM project](support/create-itsm-project). This is required to raise support requests for issues with GCC 2.0 services.
+-  Your agency must have an [ITSM project](support/support-channels). This is required to raise support requests for issues with GCC 2.0 services.
 
 ## Supported devices
+
 - Non-SE GSIB devices
 - Government Managed Device
 
