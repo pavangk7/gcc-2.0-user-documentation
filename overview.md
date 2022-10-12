@@ -20,18 +20,39 @@ GCC 2.0 has a Cloud Management Portal(CMP), which is a web-based console for age
 
 >**Note:** For more information about these devices, refer to the [GCC glossary](glossary).
 
-## How do I request for TechPass and SEED provisioning?
+## How to get TechPass and SEED provisioning
 
-Following are the different ways available for public officers and vendors to request for TechPass and SEED provisioning:
+There are **three** methods available for **public officers** using **non-SE GSIB** device to get TechPass and SEED provisioning.
+
+**Method 1**: Go to the [TechPass portal](https://portal.techpass.gov.sg/public/home), and self-sign up for TechPass and SEED.
+
+**Method 2**: [Log into the TechBiz portal using the OTP method](https://docs.developer.tech.gov.sg/docs/techbiz-documentation/log-in-to-TechBiz-portal?id=log-in-with-techpass-otp) and self-invite yourself to get the TechPass and SEED onboarding emails.
+
+**Method 3**: Other [public officer can invite through TechBiz portal](https://docs.developer.tech.gov.sg/docs/techbiz-documentation/invite-users).
+
+> **Note**:
+> If you are a public officer who has a SE-GSIB device and needs TechPass or SEED or both, [create service requests](https://go.gov.sg/techpass-sr) for TechPass and SEED provisioning.
+
+There are **two** methods available for **vendors or contractors** using **non-SE GSIB** device to get TechPass and SEED provisioning.
+
+> **Note**:
+> These Vendors or contractors should have an organisational email address in the format of *\<your_name_from\>.\<vendor organisation name\>@\<acronym for the agency\>.gov.sg*.
+
+**Method 1**: Go to the [TechPass portal](https://portal.techpass.gov.sg/public/home), and self-sign up for TechPass and SEED.
+
+**Method 2**: A [public officer can invite through TechBiz portal](https://docs.developer.tech.gov.sg/docs/techbiz-documentation/invite-users).
+
+<!--
+
 
 - Public officers or vendors who have a non-SE GSIB device, can use that device to go to the [TechPass portal](https://portal.techpass.gov.sg/public/home), and self-sign up for TechPass and SEED.
 - Public officers with a non-SE GSIB device can also use it to [log into the TechBiz portal using the OTP method](https://docs.developer.tech.gov.sg/docs/techbiz-documentation/log-in-to-TechBiz-portal?id=log-in-with-techpass-otp) and self-invite yourself to get the TechPass and SEED onboarding emails.
 - Public officers with a non-SE GSIB device can use it to [invite other public officers and vendors through TechBiz portal](https://docs.developer.tech.gov.sg/docs/techbiz-documentation/invite-users) to send them TechPass and SEED onboarding emails.
 - Public officers who have a SE-GSIB device and needs TechPass or SEED or both, has to [create service requests](https://go.gov.sg/techpass-sr) for TechPass and SEED provisioning.
-- Vendors who do not have a non-SE GSIB device can also contact their reporting officers or project managers for the onboarding invitations. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-vendors-to-techpass).
+- Vendors who do not have a non-SE GSIB device can also contact their reporting officers or project managers for the onboarding invitations. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-vendors-to-techpass).-->
 
 
-## How do I complete my TechPass and SEED onboarding?
+## Onboard to TechPass and SEED
 
 Refer to the [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/) and [SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding) documentations.
 
