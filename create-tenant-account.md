@@ -25,11 +25,11 @@ Topics:
 
 <kbd>![create-tenant-from-dashboard](images/create-tenant-from-dashboard.png)</kbd>
 
-1. Accept the Terms of Use (TOU), Acceptable Use Policy (AUP) and click **Next**.
+2. Accept the Terms of Use (TOU), Acceptable Use Policy (AUP) and click **Next**.
 
 <kbd>![accept-tou-aup](images/accept-tou-aup.png)</kbd>
 
-1. Specify the required **Agency Details** and click **Next**.
+3. Specify the required **Agency Details** and click **Next**.
 
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|
@@ -40,7 +40,7 @@ Topics:
 
 <kbd>![create-tenant-acc-agency-details](images/create-tenant-acc-agency-details.png)</kbd>
 
-1. Specify **Tenant User Details** and click **Next**.
+4. Specify **Tenant User Details** and click **Next**.
 > **Note:**
 > You can assign only one tenant role to a user.
 
@@ -61,11 +61,11 @@ Topics:
 > **Note:**
 > You can add other public officers to this account when the tenant account creation request is approved. For more information, refer to [manage additional tenant users](managing-additional-tenant-account-users).
 
-1. Click **Next**.
+5. Click **Next**.
 
 <kbd>![create-tenant-assign-roles-next](images/create-tenant-assign-roles-next.png)</kbd>
 
-1. Specify the required **Billing Details** and click **Next**.
+. Specify the required **Billing Details** and click **Next**.
 
 | <div style="width:270px">Field Name</div>   | Description |
 | :------------- |:-------------|
@@ -85,7 +85,7 @@ Topics:
 > **Note:**
 > To view the complete list of agency departments and business units, refer to the [Vendors@Gov website](https://www.vendors.gov.sg/UsefulReferences/MinStatuaryBoards.aspx).
 
-1. Make sure the information displayed on this page is correct and click **Submit**. CIO or the CIO delegate for your agency receives an email notification to process this request.
+6. Make sure the information displayed on this page is correct and click **Submit**. CIO or the CIO delegate for your agency receives an email notification to process this request.
 
 > **Note:** To edit the details you specified, click the **Back** button on this page.
 
