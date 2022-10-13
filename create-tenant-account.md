@@ -65,7 +65,7 @@ Topics:
 
 <kbd>![create-tenant-assign-roles-next](images/create-tenant-assign-roles-next.png)</kbd>
 
-. Specify the required **Billing Details** and click **Next**.
+6. Specify the required **Billing Details** and click **Next**.
 
 | <div style="width:270px">Field Name</div>   | Description |
 | :------------- |:-------------|
@@ -85,7 +85,7 @@ Topics:
 > **Note:**
 > To view the complete list of agency departments and business units, refer to the [Vendors@Gov website](https://www.vendors.gov.sg/UsefulReferences/MinStatuaryBoards.aspx).
 
-6. Make sure the information displayed on this page is correct and click **Submit**. CIO or the CIO delegate for your agency receives an email notification to process this request.
+7. Make sure the information displayed on this page is correct and click **Submit**. CIO or the CIO delegate for your agency receives an email notification to process this request.
 
 > **Note:** To edit the details you specified, click the **Back** button on this page.
 
