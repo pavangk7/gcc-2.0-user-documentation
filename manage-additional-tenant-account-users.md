@@ -76,13 +76,13 @@ When you retract a request, you may have to provide a reason for retracting the 
 
 **To retract the additional tenant account user request**
 1. [Log in to the Cloud Management Portal](log-in-to-cmp).
-1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
+2. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
-1. Select **Pending** and then go to the **Sent** tab to view requests submitted by you and pending approval.
+3. Select **Pending** and then go to the **Sent** tab to view requests submitted by you and pending approval.
 <kbd>![filter-sent-and pending approval](images/filter-sent.png)</kbd>
-1. Locate the request you want to retract and click **Go To**.
+4. Locate the request you want to retract and click **Go To**.
 <kbd>![view-request-details-for-retraction](images/retract-additional-user-request.png)</kbd>
-1. Verify the request details and click **Retract**.
+5. Verify the request details and click **Retract**.
 <kbd>![retract-request](images/retract-request.png)</kbd>
 
 > **Note:**
@@ -97,13 +97,13 @@ When a request to add tenant account users is submitted, the assigned Tenant Man
 **To approve or reject the additional tenant account user request**
 
 1. [Log in to the Cloud Management Portal](log-in-to-cmp) as **Tenant Manager**.
-1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
+2. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
-1. Select **Pending** and then go to the **Received** tab to view requests that are waiting for your approval.
-1. Locate the required request for adding users and click **Go To**.
+3. Select **Pending** and then go to the **Received** tab to view requests that are waiting for your approval.
+4. Locate the required request for adding users and click **Go To**.
 <kbd>![filter-approvals](images/filter-approvals-additional-user-request.png)</kbd>
-1. Review the request details and enter your comments in **Approver Comments**.
-1. Select **Accept** or **Reject** as needed.
+5. Review the request details and enter your comments in **Approver Comments**.
+6. Select **Accept** or **Reject** as needed.
 <kbd>![approve-or-reject](images/approve-or-reject.png)</kbd>
 
   The requestor receives an email notification about the approval or rejection. If a request is approved, the new users get added to the tenant account and their status changes from **Pending** to **Enabled**.

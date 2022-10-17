@@ -19,7 +19,7 @@ Generally, Tenant Admins request for CSP accounts. Tenant Manager can also reque
 2. Locate the required tenant account and click **Manage**.
 <!--<kbd>![view-tenant-account-from-dashboard](images/view-tenant-account-users-01.png)</kbd>-->
 3. Select **CSP** and click **Create New Account**.
-5. On the **Create New Account** page, specify the required **Account Details** and click **Next**.
+4. On the **Create New Account** page, specify the required **Account Details** and click **Next**.
 
 | <div style="width:250px">Field Name</div>  | <div style="width:200px">Description</div> |
 | :------------------------------------------ | :------------- |
@@ -29,7 +29,7 @@ Generally, Tenant Admins request for CSP accounts. Tenant Manager can also reque
 | [**CMP Billing Account**](manage-tenant-billing-account) | Tenant Billing Account under which this CSP account will be charged. |
 | **Owner** | User who requests for this CSP account. |
 
-6. Fill in required **Data Settings** details and click **Next**.
+5. Fill in required **Data Settings** details and click **Next**.
 
 | <div style="width:250px">Field Name</div>  | <div style="width:200px">Description</div> |
 | :------------------------------------------ | :------------- |
@@ -37,11 +37,11 @@ Generally, Tenant Admins request for CSP accounts. Tenant Manager can also reque
 | **Data Classification** | Specify the Data Security classification for the application to be developed/hosted on this CSP account. |
 | **Existing Hosting Platform** | If you are migrating your application from a different platform to GCC 2.0, specify it here. If not applicable, leave it blank. |
 
-7. Select the required Tenant Managers as approvers and click **Next**.
+6. Select the required Tenant Managers as approvers and click **Next**.
 
 > **Note:** Select at least one approver.
 
-8. Make sure the information displayed on this page is correct and click **Submit**.
+7. Make sure the information displayed on this page is correct and click **Submit**.
 
 > **Note:**
 >- To edit the details you specified, click the **Back** button on this page.
@@ -71,7 +71,7 @@ When you retract a request, you may have to provide a reason for retracting the 
 > **Note:**
 > You can retract requests that are not yet processed by the approvers.
 
-1. Verify the request details and click **Retract**.
+5. Verify the request details and click **Retract**.
 <kbd>![retract-request](images/retract-csp-creation-request.png)</kbd>
 
 ## Approve or reject CSP account creation request

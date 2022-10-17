@@ -15,7 +15,7 @@
 
 
 
-|| Service| Description| Responsibility of |
+| Service| Description| Responsibility of |
 | --- | ------------- |:-------------|:----: |
 | 1 | **CloudTrail logs** | Managed by organisational CloudTrail and piped to central Log S3 bucket.| GovTech |
 | 2 | **AWS Config** | Configured to direct export logs to central Log S3 bucket. | GovTech |
@@ -53,7 +53,7 @@
 
 13.	Click **Start streaming**.
 
-## Access custom logs piped to central S3 bucket
+## Access central logs piped to central S3 bucket
 
 **Prerequisites**
 
@@ -62,7 +62,7 @@
 > **Note**:
 > Agency can assign the **Cloud Security Auditor** role to the cloud account through CMP. For more information, refer to [Add cloud users](manage-csp-account-users).
 
-**To access custom logs piped to central S3 bucket**
+**To access central logs piped to central S3 bucket**
 
 1.	[Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2.	Locate the required tenant account and click **Manage**.
