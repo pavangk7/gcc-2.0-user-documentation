@@ -14,8 +14,7 @@
 <figcaption align = "center"><b>High-level architecture for AWS GCC 2.0 central logging</b></figcaption>
 
 
-
-| Service| Description| Responsibility of |
+| | Service| Description| Responsibility of |
 | --- | ------------- |:-------------|:----: |
 | 1 | **CloudTrail logs** | Managed by organisational CloudTrail and piped to central Log S3 bucket.| GovTech |
 | 2 | **AWS Config** | Configured to direct export logs to central Log S3 bucket. | GovTech |
@@ -74,6 +73,19 @@
 
 5.	Click **Management console**.
 ![choose-aws-account](/gcc-central-logging-system/images/choose-aws-account.png)</kbd>
+6. Copy the below URLs and paste them into your web browser:
+
+| To access  | Copy the below URL |
+| ------------- |:-------------:|
+|Agency - Custom Logs | https://ap-southeast-1.console.aws.amazon.com/s3/buckets/clm-all-central-876385073014?region=ap-southeast-1&prefix=AWSLogs/o-csdezrhp47/&showversions=false     |
+| Agency - CloudTrail Logs       | https://ap-southeast-1.console.aws.amazon.com/s3/buckets/tlz-cloudtrail-central-876385073014?region=ap-southeast-1&prefix=AWSLogs/o-csdezrhp47/&showversions=false     |
+| Agency - Security Hub Logs      | https://ap-southeast-1.console.aws.amazon.com/s3/buckets/tlz-security-hub-central-876385073014?region=ap-southeast-1&prefix=AWSLogs/o-csdezrhp47/&showversions=false     |
+| Agency – GuardDuty Logs | https://ap-southeast-1.console.aws.amazon.com/s3/buckets/tlz-guardduty-central-876385073014?region=ap-southeast-1&prefix=AWSLogs/&showversions=false |
+| Agency – Config Logs | https://ap-southeast-1.console.aws.amazon.com/s3/buckets/tlz-config-central-876385073014?region=ap-southeast-1&prefix=AWSLogs/&showversions=false |
+
+7. Search for the required AWS Account ID from the list to access the Logs.
+
+<!--
 6.	Open **Amazon Kinesis** console by searching for or selecting **Kinesis**.
 7.	From the navigation pane, choose **Delivery Streams**.
 8.	Select **clm-central-logging-firehose**.
@@ -84,3 +96,5 @@
 <kbd>![destination-settings](/gcc-central-logging-system/images/destination-settings.png)</kbd>
 11.	Open o-csdezrhp47/ and search for the required AWS Account ID from the list to access the Logs.
 <kbd>![objects](/gcc-central-logging-system/images/objects.png)</kbd>
+
+-->
