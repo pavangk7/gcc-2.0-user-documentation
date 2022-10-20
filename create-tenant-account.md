@@ -1,39 +1,35 @@
 # Create tenant account
 
-**Prerequisites:**
-- You should be a public officer with an active TechPass account
-- non-SE GSIB or a GMD device.
-
 **What is a tenant account?**
 
 In GCC 2.0, agencies can consolidate and centrally manage their cloud accounts using the GCC 2.0 CMP. To do this, agency has to create a GCC 2.0 tenant account on CMP.
 
 **Who can create a tenant account?**
 
-Public officer with an active TechPass account.
+Public officer with an active TechPass account using their non-SE GSIB device.
 
 Topics:
 
 - [Request for a tenant account](#request-for-a-tenant-account)
-- [Approve or reject a tenant account creation request](#approve-or-reject-a-tenant-account-creation-request)
+- [Approve or reject a tenant account](#approve-or-reject-a-tenant-account-creation-request)
 - [View tenant accounts](#view-tenant-accounts)
 
 ## Request for a tenant account
-By default, the public officer who requests for the tenant account will be the Tenant Manager and has to complete the following steps.
 
-**To submit a tenant account creation request**
+> **Note**:
+> By default, the public officer who requests for the tenant account will be the Tenant Manager and has to complete the following steps.
 
-1. [Log in to the Cloud Management Portal](log-in-to-cmp).
+**To request for a tenant account**
 
-2. In the **Dashboard**, click **Create New Tenant**.
+1. In the CMP **Dashboard**, click **Create New Tenant**.
 
 <kbd>![create-tenant-from-dashboard](images/create-tenant-from-dashboard.png)</kbd>
 
-3. Accept the Terms of Use (TOU), Acceptable Use Policy (AUP) and click **Next**.
+2. Accept the Terms of Use (TOU), Acceptable Use Policy (AUP) and click **Next**.
 
 <kbd>![accept-tou-aup](images/accept-tou-aup.png)</kbd>
 
-4. Specify the required **Agency Details** and click **Next**.
+3. Specify the required **Agency Details** and click **Next**.
 
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|
@@ -44,7 +40,7 @@ By default, the public officer who requests for the tenant account will be the T
 
 <kbd>![create-tenant-acc-agency-details](images/create-tenant-acc-agency-details.png)</kbd>
 
-5. Specify **Tenant User Details** and click **Next**.
+4. Specify **Tenant User Details** and click **Next**.
 > **Note:**
 > You can assign only one tenant role to a user.
 
@@ -65,11 +61,11 @@ By default, the public officer who requests for the tenant account will be the T
 > **Note:**
 > You can add other public officers to this account when the tenant account creation request is approved. For more information, refer to [manage additional tenant users](managing-additional-tenant-account-users).
 
-6. Click **Next**.
+5. Click **Next**.
 
 <kbd>![create-tenant-assign-roles-next](images/create-tenant-assign-roles-next.png)</kbd>
 
-7. Specify the required **Billing Details** and click **Next**.
+6. Specify the required **Billing Details** and click **Next**.
 
 | <div style="width:270px">Field Name</div>   | Description |
 | :------------- |:-------------|
@@ -86,9 +82,10 @@ By default, the public officer who requests for the tenant account will be the T
 <kbd>![create-tenant-billing-details](images/create-tenant-billing-details.png)</kbd>
 
 
-> **Note:** To view the complete list of agency departments and business units, refer to the [Vendors@Gov website](https://www.vendors.gov.sg/UsefulReferences/MinStatuaryBoards.aspx).
+> **Note:**
+> To view the complete list of agency departments and business units, refer to the [Vendors@Gov website](https://www.vendors.gov.sg/UsefulReferences/MinStatuaryBoards.aspx).
 
-8. Make sure the information displayed on this page is correct and click **Submit**. CIO or the CIO delegate for your agency receives an email notification to process this request.
+7. Make sure the information displayed on this page is correct and click **Submit**. CIO or the CIO delegate for your agency receives an email notification to process this request.
 
 > **Note:** To edit the details you specified, click the **Back** button on this page.
 
@@ -96,10 +93,11 @@ By default, the public officer who requests for the tenant account will be the T
 
 > **Note:** After your request to create tenant account is approved, you can [view the tenant account](#view-tenant-account) on CMP.
 
-## Approve or reject a tenant account creation request
+## Approve or reject a tenant account
 When a Tenant Manager submits a request to create a tenant account, the Chief Information Officer(CIO) or the designated CIO delegate of the agency receives an email to process this request via email.
 
-**To approve or reject a tenant account creation request**
+**To approve or reject a tenant account**
+
 1. Open the email that notified you about the new tenant account creation request.
 2. Review the submitted request details enclosed in this email.
 3. Reply to this email and in the first line of your reply, enter one of the supported response words.
