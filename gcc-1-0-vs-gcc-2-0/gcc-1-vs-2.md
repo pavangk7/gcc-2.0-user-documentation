@@ -33,3 +33,5 @@ This sections summarises the difference in user devices compatibility between GC
 | GCC 1.0 | GCC 2.0 |
 | :-------------: |:-------------:|
 | **Agency Manager**<br><br>- Approver for all service requests<br>- Not allowed to perform any other actions in CMP (i.e. Compartment Request).      | **Tenant Manager**<br><br>- Approver for all requests (i.e. Compartment creation, assignment of tenant roles to user).<br>-  Requestor of the Tenant automatically becomes either the TM or TA.<br>- Allowed to perform actions such as compartment creation and user assignment.<br><br> Note: *Highly recommended to register at least two (2) **Tenant Managers** for each Tenant Account*.    |
+
+test
