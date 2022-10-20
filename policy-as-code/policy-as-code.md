@@ -1,53 +1,15 @@
-![](RackMultipart20221019-1-6mthxk_html_5e7630afef33dd0e.jpg)
-
-![Shape3](RackMultipart20221019-1-6mthxk_html_88ca72848c8775.gif) ![Shape2](RackMultipart20221019-1-6mthxk_html_276988eacf78118f.gif) ![Shape1](RackMultipart20221019-1-6mthxk_html_7c13ef97b974aa38.gif)
-
-Kai Ming CHUA (GOVTECH);Hazel\_WONG@tech.gov.sg
-
-# Custom
 
 # Policy AS Code
- (PAC) with AWS Security Hub
- (EXTERNAL DOC)
+ ## PAC with AWS Security Hub
 
 Revision History
 
-|
- |
- |
- |
- |
-| --- | --- | --- | --- |
-|
 
-Date
+| Date | Revision | Author | Description |
+| :--- | :--- | :--- | :--- |
+| **2/8/2022** | 1.0.0 | Hazel Wong</br> Chua Kai Ming | - Initial Draft |
+| **10/8/2022** | 1.1.0 | Hazel Wong | - Updated remediation steps, included step-by-step guide for compliance to Batch 1 & 2 PaC rules (GT1.4 + GT1.5 not completed)</br> - Updated PaC Overview background, provided more details of Security Hub available controls, pricing </br> - Included new Section 6: References with AWS Documentation URLs </br> - Section 1.2 – Included new column containing resources used by PaC setup </br> - Incomplete: Included new Section 3.2. for alert notifications to Slack/Email/ITSM |
 
- |
-
-Revision
-
- |
-
-Author
-
- |
-
-Description
-
- |
-| --- | --- | --- | --- |
-| **2/8/2022** | 1.0.0 | Hazel WongChua Kai Ming |
-- Initial Draft
- |
-| **10/8/2022** | 1.1.0 | Hazel Wong |
-- Updated remediation steps, included step-by-step guide for compliance to Batch 1 & 2 PaC rules (GT1.4 + GT1.5 not completed)
-- Updated PaC Overview background, provided more details of Security Hub available controls, pricing
-- Included new Section 6: References with AWS Documentation URLs
-- Section 1.2 – Included new column containing resources used by PaC setup
-- Incomplete: Included new Section 3.2. for alert notifications to Slack/Email/ITSM
- |
-
-![Shape4](RackMultipart20221019-1-6mthxk_html_5aeab4bec423b992.gif)
 
 # Contents
 
