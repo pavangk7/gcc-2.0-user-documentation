@@ -3,7 +3,7 @@
 This section summarises the key differences on the billing feature between GCC 1.0 and GCC 2.0:
 
 - [Account structure](#account-structure)
-- [Cloud cost](#cloud-cost)
+- [Cloud spend](#cloud-spend)
 
 
 ## Account structure
@@ -12,7 +12,7 @@ This section summarises the key differences on the billing feature between GCC 1
 | :-------------: |:-------------:|
 | Agency can have multiple tenant accounts, which can have multiple CMP accounts, which can have multiple CSP accounts.|Agency can have multiple tenant accounts, and each account can have multiple CSP account. However, each tenant account can only have 1 billing account.|
 
-## Cloud cost
+## Cloud spend
 
 | GCC 1.0 | GCC 2.0 |
 | :-------------: |:-------------:|
