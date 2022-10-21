@@ -9,4 +9,3 @@ This article summarises the difference between GCC 1.0 and GCC 2.0 in the follow
 - [Security operations](gcc-1-0-vs-gcc-2-0/security-operations)
 - [Billing and costing](gcc-1-0-vs-gcc-2-0/billing)
 - [Reports](gcc-1-0-vs-gcc-2-0/reports)
-- test
