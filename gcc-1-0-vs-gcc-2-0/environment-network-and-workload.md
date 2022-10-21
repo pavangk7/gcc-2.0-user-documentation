@@ -21,7 +21,7 @@ This section summarises the key differences on the following between GCC 1.0 and
 
 | GCC 1.0 | GCC 2.0 |
 | :-------------: |:-------------:|
-|Agency can create and manage their own TGW via CSP, and submit SR to CMP to share TGW, and create/accept TGW attachments, with accounts in **GCC1** and **GCC2**.| Agency can manage the provisioning of the Agency TGW and VPC peering through the CSP portal in GCC 2.0.|
+|Agency can create and manage their own TGW via CSP, and submit SR to CMP to share TGW, and create/accept TGW attachments, with accounts in **GCC 1.0** and **GCC 2.0**.| Agency can manage the provisioning of the Agency TGW and VPC peering through the CSP portal in GCC 2.0.|
 |Agency can submit SR to CMP to peer network compartments in GCC 1.0 and GCC 2.0 only (exceptions can be granted, case-by-case basis).|For the VPC peering between the compartment in GCC 2.0 and GCC 1.0, Agency will need to raise the SR (under Others) in GCC 1.0 CMP to request for the acceptance of the VPC peering.|
 |Agency can create their own VPC Endpoints via CSP, but must submit SR to CMP to accept VPC Endpoint connection requests.|Agency can create and accept their own VPC Endpoints **by themselves via CSP**.|
 |Agency must open relevant firewalls (e.g. GPC FW, GDC FW, CLZ FW, etc) to access their GCC Intranet workload.|Agency must open relevant firewalls (e.g. GPC FW, GDC FW, CLZ FW, etc) to access their GCC Intranet workload. **No Change**.|
