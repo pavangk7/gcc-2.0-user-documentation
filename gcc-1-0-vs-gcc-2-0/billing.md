@@ -16,7 +16,7 @@ This section summarises the key differences on the billing feature between GCC 1
 
 | GCC 1.0 | GCC 2.0 |
 | :-------------: |:-------------:|
-| Agency procure GCC services under GCCS Bulk Tender – GVT(T)-18015.|There is no bulk tender for GCC 2.0, the act of tenant creation is covered with the acceptance of TOU and AUP. Please refer to this link. |
+| Agency procure GCC services under GCCS Bulk Tender – GVT(T)-18015.|There is no bulk tender for GCC 2.0, the act of tenant creation is covered with the acceptance of TOU and AUP. Please refer to GCC 2.0 [Terms and policies](https://docs.developer.tech.gov.sg/docs/gcc-version-2-user-documentation/terms-and-policies). |
 |Agency Saving Plans and Reserved Instances cannot be shared across accounts.|Agency Saving Plans and Reserved Instances cannot be shared across accounts. **No Change**.|
 |Monthly subscription for AWS Shield Advance Plan is covered by GCC.|Monthly subscription for AWS Shield Advance Plan is covered by GCC. **No Change**.|
 |All AWS accounts are enrolled to AWS Enterprise Support Pooled Plan, with dedicated TAM available for USD$10,000 per month.|All AWS accounts are enrolled to AWS Enterprise Support Pooled Plan, with dedicated TAM available for USD$10,000 per month. **No Change**.|
