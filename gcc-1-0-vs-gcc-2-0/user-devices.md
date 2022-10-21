@@ -16,4 +16,4 @@ This sections summarises user devices' compatibility for GCC 1.0 and GCC 2.0.
 ||  Non-SE GSIB |   GMD | GoMax |
 || :-------------: |:-------------:|:-------------: |
 |Cloud Management Portal (CMP)| Yes| Yes | No|
-|Cloud Service Provider (CSP) Console| Yes | Yes|  No |
+|Cloud Service Provider (CSP) Console| Yes | Yes|  No|
