@@ -9,7 +9,7 @@ This section summarises the key differences in security operations between GCC 1
 
 | GCC 1.0 | GCC 2.0 |
 | :-------------: |:-------------:|
-|Agency can use CASB **(until April 2022)**, Compliance Monitoring (Patch and Compartment), Security Hub and Guard Duty to monitor their security posture.|Agency can use CSP native products (AWS Security Hub, Azure Defender, GCP Security Command Centre - Premium) to monitor their security posture.<br><br>**No CASB and Compliance Monitoring (Patch and Compartment). Additional PaC monitoring (e.g. IM8 compliance) to be provided by CSG CloudSCAPE. No setup work required for agency to install Cloudscape**.|
+|Agency can use CASB **(until April 2022)**, Compliance Monitoring (Patch and Compartment), Security Hub and Guard Duty to monitor their security posture.|Agency can use CSP native products (AWS Security Hub, Azure Defender, GCP Security Command Centre - Premium) to monitor their security posture.<br><br>**No CASB and Compliance Monitoring (Patch and Compartment). Additional PaC monitoring (e.g. IM8 compliance) to be provided by CSG CloudSCAPE. No setup work required for agency to install CloudSCAPE**.|
 |Agency Security Hub and GuardDuty will be managed by GCC centrally.|Agency Security Hub and GuardDuty will be managed by GCC centrally. **No change**.|
 |Agency must send CSP audit logs, device & system logs, and application logs to GCC 1.0 Central Log Repository.|Agency must send CSP audit logs, device & system logs, and application logs to **GCC 2.0 Central Log Repository**.|
 |Agency can access GCC 1.0 Central Log Repository via CSP portal using role switching.|**Agency can access GCC 2.0 Central Log Repository**.|
