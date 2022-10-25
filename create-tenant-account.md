@@ -6,7 +6,7 @@ In GCC 2.0, agencies can consolidate and centrally manage their cloud accounts u
 
 **Who can create a tenant account?**
 
-Public officer with an active TechPass account using their non-SE GSIB device.
+Public officer.
 
 Topics:
 
@@ -36,7 +36,7 @@ Topics:
 | **Tenant Name**      | Enter a human-readable alias name for this tenancy.     |
 | **Parent Agency**     | Select your agency name from the drop-down list.     |
 | **Agency Address** | Official mailing address of your Agency. This is automatically displayed based on the selected **Parent Agency**. |
-| **Agency CIO Email** | Enter the organisation email address of your CIO or the designated CIO delegate of your agency. <br><br> when you submit the request, this user receives an email for processing the request. |
+| **Agency CIO Email** | Enter the organisation email address of your CIO or the designated CIO delegate of your agency. <br><br> When you submit the request, this user receives an email for processing the request. |
 
 <kbd>![create-tenant-acc-agency-details](images/create-tenant-acc-agency-details.png)</kbd>
 

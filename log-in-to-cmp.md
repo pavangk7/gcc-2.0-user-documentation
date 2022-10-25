@@ -5,24 +5,19 @@
 
   <kbd>![log-in-to-cmp](images/choose-techpass-account-test.png ':size=600')</kbd>
 
-> **Note**:
->
-> If you are accessing CMP from a GMD, you will be prompted to authenticate your WOG account.
-
-3. Enter the **One-time password code** displayed on the Authenticator app for your SG Govt M365 profile and click **Sign in**.
+3. If you are accessing CMP from a GMD, you will be prompted to authenticate your WOG account. On your GMD, enter the **One-time password code** displayed on the Authenticator app for your SG Govt M365 profile and click **Sign in**.
 
   <kbd>![log-in-to-cmp](images/otp-wog-account-2.png  ':size=600')</kbd>
 
-  You will now be prompted to approve your TechPass sign-in.
+4. When prompted to approve your TechPass sign-in, on the Authenticator app, tap **APPROVE**.
 
   <kbd>![log-in-to-cmp](images/approve-wog-sign-in.png ':size=600')</kbd>
 
-4. On the Authenticator app, tap **APPROVE** to authenticate your TechPass sign-in.
 5. On your computer, click **Login with TechPass**.
 
   <kbd>![log-in-to-cmp](images/gcc-2.0-cmp-log-in.png ':size=600')</kbd>
 
-You are now successfully logged in to CMP and you can now view your Dashboard.
+You are now successfully logged in to CMP and you can now view your CMP **Dashboard**.
 
 > **Note**:
 > You will be able to view only those tenant accounts to which you are assigned as Tenant Cloud Admin.
