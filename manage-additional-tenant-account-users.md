@@ -46,9 +46,9 @@ When a tenant account is created, it will have only two users, and they are the 
 
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|
-| **Role**      | Select a role for the cloud user. Possible roles are: <br> - Tenant Admin<br>- Tenant Manager<br>- Tenant Billing Admin. <br><br>Refer to the [Glossary](glossary) to know more about these roles and their responsibilities.  |
-| **Email**     | Type the first few characters of the TechPass ID, and select the required TechPass ID from the matching results. <br><br>- You can add users who have an active TechPass account. <br>- If you can't locate user by entering the email address, verify if the user has an active TechPass account. |
-| **Name** | Displays the user name based on the TechPass ID selected as **Email**. |
+| **Role**      | Select a role for the tenant user. Following are the cloud roles available in the CMP portal: <br><br> - Tenant Admin<br>- Tenant Manager<br>- Tenant Billing Admin. <br><br>Refer to the [Glossary](glossary) to know more about these roles and their responsibilities.  |
+| **Email**     | Type the first few characters of the user's email address registered with TechPass and select the required email address from the matching results. <br><br>- You can add users who have an active TechPass account. <br>- If you can't locate user by entering the email address, verify if the user has an active TechPass account. |
+| **Name** | Displays the user name based on the **Email**. |
 | **Phone Number** | Displays the phone number of the user if available. |
 | **Add another user** |  Click this to add another user. |
 
