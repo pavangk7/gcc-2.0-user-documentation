@@ -23,7 +23,7 @@ Public officers onboarded to GCC 2.0 can request for tenant and cloud accounts u
 
 1. You must have an active TechPass account and if you need to access CMP 2.0 from your internet device, you must onboard it to SEED.
 
-> **Notes for users who need TechPass and SEED provisioning**:
+> **Notes for users who need TechPass and/or SEED provisioning**:
 >
 >- Public officers, vendors or contractors with WOG email address (i.e gov.sg) using non-SE GSIB device can sign up for TechPass account and SEED via [TechPass portal](portal.techpass.gov.sg/). For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/) and [SEED documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding).
 >
