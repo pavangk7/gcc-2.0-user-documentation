@@ -1,6 +1,6 @@
 - **Policy as code**
   - [Revision history](policy-as-code/revision-history)
-    - [AWS GCC 2.0 central logging system](gcc-central-logging-system/aws-log-management-on-gcc)
-  - [FAQ](gcc-central-logging-system/faq)
+  - [GCC 2.0 Policy as code overview](policy-as-code/overview)
+  - [PaC rules](policy-as-code/pac-rules)
   - **Back to main help**
   - [Back to main](/overview)
