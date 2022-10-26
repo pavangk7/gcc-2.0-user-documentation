@@ -31,6 +31,8 @@ Public officers onboarded to GCC 2.0 can request for tenant and cloud accounts u
 >
 >- Alternatively, another public officer can invite you to TechPass and SEED via the [TechBiz portal](portal.techbiz.suite.gov.sg).
 >
+>- If you already have an active TechPass account and only need to onboard your internet device to SEED, request only for SEED provisioning.
+>
 >- If you have issues in signing up for TechPass account or activating your TechPass account, [create a support request](https://go.gov.sg/techpass-sr). For more information, refer to [support](https://docs.developer.tech.gov.sg/docs/gcc-version-2-user-documentation/support/support-channels)page.
 
 2. Your agency must have an [ITSM project](https://docs.developer.tech.gov.sg/docs/gcc-version-2-user-documentation/support/support-channels?id=create-itsm-project). This is required to raise support requests for issues with GCC 2.0 services.
