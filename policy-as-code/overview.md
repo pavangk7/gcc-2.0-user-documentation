@@ -1,12 +1,10 @@
-# 1. Policy as Code - Overview
+# Policy as Code - Overview
 
-## 1.1. Audience
-
-This playbook is intended for the following agency users:
+## Audience
 
 - Agency Chief Information Security Officer (ACISO)
 - Agency Security Incident Response Officer (ASIRO)
-- Account administrators.
+- Agency account administrators.
 
 ## 1.2. Key things to take note
 
@@ -90,5 +88,4 @@ Simple Notification Service (SNS)\*:
 *(Optional: Agency responsibility)
 
 > **Note:**
-> - For more information, refer to the links provided in Section 6: References
 > - Estimated total PaC recurring cost is **approximately 10.00 USD per month**.
