@@ -1,7 +1,8 @@
 # Manage tenant account users
+
 **Prerequisites:** [GCC 2.0 tenant account](create-tenant-account).
 
-Tenant Manager and Tenant Admin can manage the tenant account by doing the following tasks:
+Tenant Manager and Tenant Admin can do the following:
 
 - [View tenant account users](#view-tenant-account-users)
 - [Submit additional tenant account user request](#submit-additional-tenant-account-user-request)
@@ -10,13 +11,13 @@ Tenant Manager and Tenant Admin can manage the tenant account by doing the follo
 
 
 ## View tenant account users
-Tenant Manager and Tenant Admin of the tenant account can view and manage the tenant account users.
+
+Tenant Manager and Tenant Admin can view and manage the tenant account users.
 
 **To view and manage tenant account users**:
-1. Log in to the [Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
-2. Locate the required tenant account and click **Manage**.
-3. Select **Users** to view the list of users.
-4. You may do the following:
+1. From the **Dashboard**, go to the required tenant account and click **Manage**.
+2. Select **Users**.
+3. You may do the following:
    - [Submit additional tenant account user request](#submit-additional-tenant-account-user-request).
    - Delete a user from this tenant by clicking the trash icon in that row.
 
@@ -24,9 +25,9 @@ Tenant Manager and Tenant Admin of the tenant account can view and manage the te
 
 > **Note:**
 >
-> User status can be any of the following:
->- Enabled - Request to add the user to this tenant account is approved.
->- Pending - Request to add the user for this tenant is pending to be processed.
+> User status can be any of the following and they indicate:
+>- Enabled - User belongs to this tenant account.
+>- Pending - Request to add the user to this tenant account is pending to be processed.
 
 ## Submit additional tenant account user request
 
@@ -36,13 +37,10 @@ When a tenant account is created, it will have only two users, and they are the 
 
 **To add additional users to a tenant account**
 
-1. [Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
-2. Click **Manage** on the tenant account.
-<kbd>![view-tenant-account-from-dashboard](images/view-tenant-account-users-01.png)</kbd>
-<!--<kbd>![add-additioal-user-manage-account](images/add-additioal-user-manage-account.png)</kbd>-->
-3. Go to **Users** and click **Add New Users**.
+1. From the **Dashboard**, go to the required tenant account and click **Manage**.
+2. Go to **Users** and click **Add New Users**.
 <kbd>![add-new-user](images/add-new-user.png)</kbd>
-4. On the **Add Users** page, specify the required details and click **Next**.
+3. On the **Add Users** page, specify the required details and click **Next**.
 
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|
@@ -54,20 +52,21 @@ When a tenant account is created, it will have only two users, and they are the 
 
   <kbd>![add-users](images/add-users-02.png)</kbd>
 
-5. Select at least one Tenant Manager as the approver and if needed, specify additional information in **Remarks**.
-6. Click **Next**.
+4. Select at least one Tenant Manager as the approver and if needed, specify additional information in **Remarks**.
+5. Click **Next**.
  <kbd>![select-approvers](images/select-approvers-01.png)</kbd>
 
-7. Review the request **Summary** and to change the **Tenant User Details** or the **Approving Party**, click the **Edit** link.
+6. Review the request **Summary** and to change the **Tenant User Details** or the **Approving Party**, click the **Edit** link.
 
   <kbd>![review-additional-user-request](images/review-additional-user-request.png)</kbd>
-8. Click **Submit**. The status of the users requested to be added will be **Pending** until the request is approved.
+7. Click **Submit**. The status of the users requested to be added will be **Pending** until the request is approved.
 
 >- **Note:** Requestor can [cancel or retract an additional user creation request](#retract-additional-tenant-account-user-request) if it is not yet been processed.
 
 
 ## Retract additional tenant account user request
-Requestor may retract a request and CMP allows this if the request is yet to be processed. Some of the possible reason for retracting a request are:
+
+Requestor may retract a request as long as it is not been processed by the assigned approver. Some of the possible reason for retracting a request are:
 - requested approvers are not available
 - requestor wants to assign a different approver
 - request is no longer valid.
@@ -75,20 +74,17 @@ Requestor may retract a request and CMP allows this if the request is yet to be 
 When you retract a request, you may have to provide a reason for retracting the request and the request status changes from **Pending** to **Cancelled** and will be listed under **Notifications** > **Approvals** > **Cancelled**.
 
 **To retract the additional tenant account user request**
-1. [Log in to the Cloud Management Portal](log-in-to-cmp).
-2. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
+1. Go to notifications ![notifications-icon](images/notifications-icon.png) > **Approvals**.
 <kbd>![go-to-approvals](images/go-to-approvals.png)</kbd>
-3. Select **Pending** and then go to the **Sent** tab to view requests submitted by you and pending approval.
+2. Select **Pending** and then go to the **Sent** tab to view requests submitted by you and pending approval.
 <kbd>![filter-sent-and pending approval](images/filter-sent.png)</kbd>
-4. Locate the request you want to retract and click **Go To**.
+3. Locate the request you want to retract and click **Go To**.
 <kbd>![view-request-details-for-retraction](images/retract-additional-user-request.png)</kbd>
-5. Verify the request details and click **Retract**.
+4. Verify the request details and click **Retract**.
 <kbd>![retract-request](images/retract-request.png)</kbd>
 
-> **Note:**
-> You can retract requests that are not yet processed by the approvers.
-
 ## Approve or reject additional tenant account user request
+
 When a request to add tenant account users is submitted, the assigned Tenant Manager(s) receive an email notification to process the request.
 
 > **Note:**
