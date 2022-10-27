@@ -1,8 +1,8 @@
-# 2. PaC Rules
+# PaC Rules
 
 The following section provides the list of PaC rules for AWS and its respective description.
 
-## 2.1. Custom batch 1 & 2 PaC rules
+## Custom batch 1 & 2 PaC rules
 
 | Rule Name | Severity Level | Frequency | Description |
 | --- | --- | --- | --- |
@@ -19,7 +19,7 @@ The following section provides the list of PaC rules for AWS and its respective 
 | **GT2.3 Detects IAM roles that trust external accounts that are from an external organization** | MEDIUM | Scanned when event matches | Checks through all trusted entities in IAM roles does not come from an external organization.</br></br>This check will flag if IAM role's trusted entity contains an account that's from an external organization. |
 | **GT2.4 Detects IAM roles which have an inline policy that contains the IAM action 'iam:\*'** | HIGH | Scanned when event matches | Checks through all IAM inline policies to ensure it does not contain "iam:\*" action. </br></br>This check will flag if Inline policies contains the IAM action "iam:\*", which allows all actions under the IAM service. |
 
-## 2.2. Batch 1 & 2 PaC Rules Remediation Steps
+## Batch 1 & 2 PaC Rules Remediation Steps
 
 If there are any non-compliant PaC findings within the agency account's Security Hub, administrators may refer to the following remediation steps applicable to the PaC rules in section 2.2. For certain PaC rules, examples between a compliant and non-compliant resource are provided (for example, GT1.6 to GT2.4), which allows administrators/users to easily differentiate the resources' compliance status.
 

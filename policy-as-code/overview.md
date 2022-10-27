@@ -6,7 +6,7 @@
 - Agency Security Incident Response Officer (ASIRO)
 - Agency account administrators.
 
-## 1.2. Key things to take note
+## Key things to take note
 
 - Agency can't modify the _clm-pac_ rules deployed to their agency account.
 - Agency can't modify resources used by _clm-pac_ which has a tag key _gcc:team_ and value as _gcci_.
@@ -14,7 +14,7 @@
 - Agency can additionally add up to 391 more custom config rules within their accounts.
 - In addition to resources used by _clm-pac_, agencies can also add additional tags.
 
-## 1.3. Background
+## Background
 
 Policy as Code (PaC) custom rule is introduced as part of GCC2.0's enhancement to provide additional security coverage for organisation-specific security requirements. PaC acts a detection service that alerts agency administrators/CISO/SIRO of non-compliant resources and does not perform intrusive actions such as modifying, adding, or deleting any resources.
 
@@ -23,7 +23,7 @@ GCC2.0 adopts a light-touch approach in compliance monitoring to improve securit
 AWS Security Hub is a Cloud Security Posture Management (CSPM) that checks AWS services and resources against security best practices and aggregates compliance alerts onto the Security Hub Findings dashboard.
 Security Hub with AWS config and EventBridge are used in GCC 2.0 as the main PaC toolchain to detect non-compliant settings or resources in the tenant environment.
 
-## 1.4. What does GCC 2.0 PaC cover
+## What does GCC 2.0 PaC cover
 
 The following security standards are available on GCC 2.0:
 
@@ -35,14 +35,14 @@ The following security standards are available on GCC 2.0:
 | 4 | GovTech PaC rules | Yes | No | Custom | No |
 
 
-## 1.5. AWS resources utilised for custom PaC rules
+## AWS resources utilised for custom PaC rules
 
 | AWS services | AWS resources utilised | Description |
 | --- | --- | --- |
 | **Lambda** | **PaC Functions** : </br>- clm-pac-rules-**[PaC-Name]**</br></br>**Update PaC severity level** : </br>- clm-modify-sechub-severity-label-lambda | Contains the **custom logic** to determine the compliance of agency resources status with AWS config as evaluation results or AWS Security Hub as Findings. In addition, Lambda also modifies the severity level for custom PaC rules.|
 | **Config** | **Custom Config Rules:** </br>- clm-pac-**[PaC-Name]** | Custom Config leverages on Lambda logic evaluation to determine compliance status. Automatically imports AWS Config evaluation results to Security Hub as Findings. | **EventBridge Rule** | **Custom EventBridge Rules** :</br>- clm-event-**[Rule-Name]**</br>- clm-modify-sechub-severity-label-cw-rule | Lambda evaluates the resources to determine compliance status in case of events, such as the creation of new resources or configuration changes that match the patterns predefined in the EventBridge Rule. | **Security Hub** | **N/A** | Displays non-compliant resources or configuration changes in the Findings Dashboard. From this dashboard, agency administrators can perform the necessary remediation to ensure all resources remain compliant. | **SNS (Optional & Agency responsibility)** | **Topic:** </br>- clm-pac-sechubfindings-email | Sends PaC alert notifications to recipients through email, Slack and third-party products. Refer to section 3.2. |
 
-## 1.6. Cost
+## Cost
 
 > **Note:** Prices are in US dollars.
 

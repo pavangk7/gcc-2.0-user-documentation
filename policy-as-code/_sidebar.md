@@ -1,6 +1,5 @@
 - **Policy as code**
-  - [Revision history](policy-as-code/revision-history)
   - [GCC 2.0 Policy as code overview](policy-as-code/overview)
   - [PaC rules](policy-as-code/pac-rules)
   - **Back to main help**
-  - [Back to main](/overview)
+  - [Back to main](policy-as-code/overview)
