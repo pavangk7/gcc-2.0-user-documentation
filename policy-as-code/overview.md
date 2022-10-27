@@ -44,9 +44,9 @@ The following security standards are available on GCC 2.0:
 | **Lambda** | **PaC Functions** : </br>- clm-pac-rules-**[PaC-Name]**</br></br>**Update PaC severity level** : </br>- clm-modify-sechub-severity-label-lambda | Contains the **custom logic** to determine the compliance of agency resources status with AWS config as evaluation results or AWS Security Hub as Findings. In addition, Lambda also modifies the severity level for custom PaC rules.|
 | **Config** | **Custom Config Rules:** </br>- clm-pac-**[PaC-Name]** | Custom Config leverages on Lambda logic evaluation to determine compliance status. Automatically imports AWS Config evaluation results to Security Hub as Findings. | **EventBridge Rule** | **Custom EventBridge Rules** :</br>- clm-event-**[Rule-Name]**</br>- clm-modify-sechub-severity-label-cw-rule | Lambda evaluates the resources to determine compliance status in case of events, such as the creation of new resources or configuration changes that match the patterns predefined in the EventBridge Rule. | **Security Hub** | **N/A** | Displays non-compliant resources or configuration changes in the Findings Dashboard. From this dashboard, agency administrators can perform the necessary remediation to ensure all resources remain compliant. | **SNS (Optional & Agency responsibility)** | **Topic:** </br>- clm-pac-sechubfindings-email | Sends PaC alert notifications to recipients through email, Slack and third-party products. Refer to section 3.2. |
 
-## 1.6.Cost
+## 1.6. Cost
 
-> **Note**: Prices are in US dollars.
+> **Note:** Prices are in US dollars.
 
 Lambda:
 
@@ -89,6 +89,6 @@ Simple Notification Service (SNS)\*:
 
 *(Optional: Agency responsibility)
 
-> Note:
+> **Note:**
 > - For more information, refer to the links provided in Section 6: References
 > - Estimated total PaC recurring cost is **approximately 10.00 USD per month**.
