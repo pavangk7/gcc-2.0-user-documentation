@@ -2,9 +2,9 @@
 
 ## Audience
 
-- Agency Chief Information Security Officer (ACISO)
-- Agency Security Incident Response Officer (ASIRO)
-- Agency account administrators.
+- Agency Chief Information Security Officer (ACISO).
+- Agency Security Incident Response Officer (ASIRO).
+- Agency Account Administrators.
 
 ## Key things to take note
 
