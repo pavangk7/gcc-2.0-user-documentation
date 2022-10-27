@@ -1,4 +1,4 @@
-# PaC Rules
+# PaC rules
 
 The following section provides the list of PaC rules for AWS and its respective description.
 
@@ -19,7 +19,7 @@ The following section provides the list of PaC rules for AWS and its respective 
 | **GT2.3 Detects IAM roles that trust external accounts that are from an external organization** | MEDIUM | Scanned when event matches | Checks through all trusted entities in IAM roles does not come from an external organization.</br></br>This check will flag if IAM role's trusted entity contains an account that's from an external organization. |
 | **GT2.4 Detects IAM roles which have an inline policy that contains the IAM action 'iam:\*'** | HIGH | Scanned when event matches | Checks through all IAM inline policies to ensure it does not contain "iam:\*" action. </br></br>This check will flag if Inline policies contains the IAM action "iam:\*", which allows all actions under the IAM service. |
 
-## Batch 1 & 2 PaC Rules Remediation Steps
+## Batch 1 & 2 PaC rules remediation steps
 
 If there are any non-compliant PaC findings within the agency account's Security Hub, administrators may refer to the following remediation steps applicable to the PaC rules in section 2.2. For certain PaC rules, examples between a compliant and non-compliant resource are provided (for example, GT1.6 to GT2.4), which allows administrators/users to easily differentiate the resources' compliance status.
 
@@ -127,11 +127,11 @@ To ensure agency account is compliant with GT1.2, create an EventBridge Rule tha
 
   <kbd><img src="policy-as-code/images/config-tags-optional.png" alt="drawing" width="100%"/></kbd>
 
-### GT1.3 Ensure Subscription to Central GCCI Logs
+### GT1.3 Ensure subscription to central GCCI logs
 
 To ensure agency account is compliant with GT1.3, create a Kinesis Data Firehose and Subscription Filter in all CloudWatch Log Groups named _vpc-flow-log_, which streams all logs from agency accounts to Central GCCI.
 
-1. Go to **Kinesis Data Firehose** and select **Create Delivery stream**.
+1. Go to **Kinesis data firehose** and select **Create delivery stream**.
 
   <kbd><img src="policy-as-code/images/amazon-kinsesis.png" alt="drawing" width="100%"/></kbd>
 
@@ -240,7 +240,7 @@ After successful creation of the Kinesis Data Firehose Delivery Stream:
 
     <kbd><img src="policy-as-code/images/kinesis-filter.png" alt="drawing" width="100%"/></kbd></img>
 
-  5. In **Create Kinesis Firehose subscription filter**:
+  5. In **Create Kinesis firehose subscription filter**:
 
     a. Select _Current account_ as **Destination account**.
 
@@ -329,7 +329,7 @@ This VPC resource is not compliant due to syntax errors and wrong values specifi
 
 <kbd><img src="policy-as-code/images/vpc-non-compliant-3.png" alt="drawing" width="100%"/></kbd></img>
 
-### GT1.7 Ensure Intranet VPC with tag key "type" and tag value "Intranet", excludes IGW
+### GT1.7 Ensure intranet VPC with tag key _type_ and tag value _Intranet_, excludes IGW
 
 To ensure agency account is compliant with GT1.7, all VPC with Tag type:_Intranet_ shall not be attached to internet gateways.
 
@@ -420,7 +420,7 @@ To ensure agency account is compliant with GT2.4, all IAM roles in aAgency accou
 
 <kbd><img src="policy-as-code/images/compliant-iam-role.png" alt="drawing" width="100%"/></kbd></img>
 
-**Example of a Non-Compliant non-compliant IAM Role using all IAM actions:**
+**Example of a non-compliant IAM Role using all IAM actions:**
 
 <kbd><img src="policy-as-code/images/non-compliant-iam-role.png" alt="drawing" width="100%"/></kbd></img>
 
