@@ -16,4 +16,4 @@
 - [Overview of EventBridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html)
 - [EventBridge Cost](https://aws.amazon.com/eventbridge/pricing/)
 
-> **Note:** For more information, refer to the links provided in Section 6: References.
+> **Note:** For more information, refer to the links provided in **Additional resources**.
