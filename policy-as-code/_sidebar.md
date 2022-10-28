@@ -1,4 +1,4 @@
-- **Policy as code**
+- **Policy as Code**
   - [Overview](policy-as-code/overview)
   - [PaC rules](policy-as-code/pac-rules)
   - [Security hub findings retention period](/policy-as-code/security-hub-findings-retention-period)
