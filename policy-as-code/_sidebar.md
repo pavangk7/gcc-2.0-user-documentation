@@ -3,7 +3,7 @@
   - [PaC rules](policy-as-code/pac-rules)
   - [Security hub findings retention period](/policy-as-code/security-hub-findings-retention-period)
   - [Compliance management on AWS Security hub](/policy-as-code/compliance-management-on-aws-security-hub.md)
-  - [FAQ](/policy-as-code/faq.md)
+  - [FAQs](/policy-as-code/faq.md)
   - [Technical support](/policy-as-code/technical-support.md)
   - [References](/policy-as-code/references.md)
   - **Back to main help**
