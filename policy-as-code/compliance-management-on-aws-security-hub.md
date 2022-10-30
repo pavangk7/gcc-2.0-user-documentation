@@ -42,7 +42,7 @@ You have now successfully suppressed the PaC Findings.
 
   Finding is suppressed successfully if the _Id_ and _ProductArn_ is reflected on **ProcessedFindings** in **CLI result**.
 
-## Setup Security Hub alerts to Email/Slack/ServiceNow ITSM
+## Setup Security hub alerts to email/Slack/ServiceNow ITSM
 
 Aside from viewing PaC related alerts on Security Hub, if a resource is non-compliant, PaC detects it and notifies the agency administrators through the preferred channel.
 
