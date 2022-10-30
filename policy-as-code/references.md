@@ -1,6 +1,6 @@
 # 6.References
 
-For more information, please refer to the URLs below:
+For more information, refer to the URLs below:
 
 **AWS Security hub**
 1. [Overview](https://aws.amazon.com/security-hub/overview)
