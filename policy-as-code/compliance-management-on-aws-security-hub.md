@@ -1,4 +1,4 @@
-# Compliance management on Aws Security Hub
+# Compliance management on AWS Security hub
 
 If the non-compliant PaC Security Hub findings has been resolved, administrators can remove the resolved finding from the dashboard using alert suppression. Alternatively, if the PaC findings are not applicable to the agency account, administrators may also supress those findings that are not required.
 
@@ -32,13 +32,15 @@ You have now successfully suppressed the PaC Findings.
 
   c. Go to **CLI Results Syntax** and copy _**FINDING\_ID**_ & _**FINDING\_PRODUCT\_ARN**_ from results to be used in the next step.
 
-  fresh screenshot given does not match actual screenshot
+  <kbd><img src="policy-as-code/images/cli-results.png" alt="drawing" width="100%"/></kbd>
+
 
   d. Paste _**FINDING\_ID**_ & _**FINDING\_PRODUCT\_ARN**_ obtained from the previous step into the following command to suppress PaC findings:
 
     aws securityhub batch-update-findings --finding-identifiers Id="FINDING_ID",ProductArn="_FINDING_PRODUCT_ARN" --workflow Status="SUPPRESSED" --profile AWS_CLI_PROFILE --region ap-southeast-1 
 
-  fresh screenshot given does not match actual screenshot
+  <kbd><img src="policy-as-code/images/success-supressed.png" alt="drawing" width="100%"/></kbd>
+
 
   Finding is suppressed successfully if the _Id_ and _ProductArn_ is reflected on **ProcessedFindings** in **CLI result**.
 
