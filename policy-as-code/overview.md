@@ -20,8 +20,8 @@ Policy as Code (PaC) custom rule is introduced as part of GCC2.0's enhancement t
 
 GCC2.0 adopts a light-touch approach in compliance monitoring to improve security posture while ensuring that the security measures are not overly restrictive.
 
-AWS Security Hub is a Cloud Security Posture Management (CSPM) that checks AWS services and resources against security best practices and aggregates compliance alerts onto the Security Hub Findings dashboard.
-Security Hub with AWS config and EventBridge are used in GCC 2.0 as the main PaC toolchain to detect non-compliant settings or resources in the tenant environment.
+AWS Security hub is a Cloud Security Posture Management (CSPM) that checks AWS services and resources against security best practices and aggregates compliance alerts onto the Security hub findings dashboard.
+Security Hhb with AWS config and EventBridge are used in GCC 2.0 as the main PaC toolchain to detect non-compliant settings or resources in the tenant environment.
 
 ## What does GCC 2.0 PaC cover
 
@@ -42,7 +42,7 @@ The following security standards are available on GCC 2.0:
 | **Lambda** | **PaC Functions** : </br>- clm-pac-rules-**[PaC-Name]**</br></br>**Update PaC severity level** : </br>- clm-modify-sechub-severity-label-lambda | Contains the **custom logic** to determine the compliance of agency resources status with AWS config as evaluation results or AWS Security Hub as Findings. In addition, Lambda also modifies the severity level for custom PaC rules.|
 | **Config** | **Custom Config Rules:** </br>- clm-pac-**[PaC-Name]** | Custom Config leverages on Lambda logic evaluation to determine compliance status. Automatically imports AWS Config evaluation results to Security Hub as Findings. |
 | **AWS EventBridge** | clm-event-**[PaC’s scope]** </br>- clm-event-**[Rule-Name]**</br>- clm-modify-sechub-severity-label-cw-rule | EventBridge rules which invokes PaC functions containing the custom logic required to perform compliance evaluations. Invocations are based on specific IAM actions specified in the event pattern. |
-| **Security Hub** | **N/A** | Displays non-compliant resources or configuration changes in the Findings Dashboard. From this dashboard, agency administrators can perform the necessary remediation to ensure all resources remain compliant. | **SNS (Optional & Agency responsibility)** | **Topic:** </br>- clm-pac-sechubfindings-email | Sends PaC alert notifications to recipients through email, Slack and third-party products. Refer to section 3.2. |
+| **Security hub** | **N/A** | Displays non-compliant resources or configuration changes in the Findings Dashboard. From this dashboard, agency administrators can perform the necessary remediation to ensure all resources remain compliant. | **SNS (Optional & Agency responsibility)** | **Topic:** </br>- clm-pac-sechubfindings-email | Sends PaC alert notifications to recipients through email, Slack and third-party products. Refer to section 3.2. |
 
 ## Cost
 
@@ -89,5 +89,4 @@ Simple Notification Service (SNS)\*:
 
 *(Optional: Agency responsibility)
 
-> **Note:**
-> - Estimated total PaC recurring cost is **approximately 10.00 USD per month**.
+> **Note:** Estimated total PaC recurring cost is **approximately 10.00 USD per month**.

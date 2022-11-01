@@ -24,7 +24,7 @@ You have now successfully suppressed the PaC Findings.
 
   a. Go to **awsapps SSO** and select **Command line or programmatic access**. Copy and paste **AWS access key ID**, **Secret access key** and **Session token** into _~/.aws/credentials_ file in account administrator's local terminal.
 
-  <kbd><img src="policy-as-code/images/credentials.png" alt="drawing" width="100%"/></kbd>
+  <kbd><img src="policy-as-code/images/credentials-new.png" alt="drawing" width="100%"/></kbd>
 
   b. Using **AWS CLI**, provide the target Finding Title to retrieve **finding's ID** and **ProductArn**:
 
