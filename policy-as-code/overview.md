@@ -39,8 +39,8 @@ The following security standards are available on GCC 2.0:
 
 | AWS services | AWS resources utilised | Description |
 | --- | --- | --- |
-| **Lambda** | **PaC Functions** : </br>- clm-pac-rules-**[PaC-Name]**</br></br>**Update PaC severity level** : </br>- clm-modify-sechub-severity-label-lambda | Contains the **custom logic** to determine the compliance of agency resources status with AWS config as evaluation results or AWS Security Hub as Findings. In addition, Lambda also modifies the severity level for custom PaC rules.|
-| **Config** | **Custom Config Rules:** </br>- clm-pac-**[PaC-Name]** | Custom Config leverages on Lambda logic evaluation to determine compliance status. Automatically imports AWS Config evaluation results to Security Hub as Findings. |
+| **Lambda** | **PaC Functions** : </br>- clm-pac-rules-**[PaC-Name]**</br></br>**Update PaC severity level** : </br>- clm-modify-sechub-severity-label-lambda | Contains the **custom logic** to determine the compliance of agency resources status with AWS config as evaluation results or AWS Security hub as Findings. In addition, Lambda also modifies the severity level for custom PaC rules.|
+| **Config** | **Custom Config Rules:** </br>- clm-pac-**[PaC-Name]** | Custom Config leverages on Lambda logic evaluation to determine compliance status. Automatically imports AWS Config evaluation results to Security hub as Findings. |
 | **AWS EventBridge** | clm-event-**[PaC’s scope]** </br>- clm-event-**[Rule-Name]**</br>- clm-modify-sechub-severity-label-cw-rule | EventBridge rules which invokes PaC functions containing the custom logic required to perform compliance evaluations. Invocations are based on specific IAM actions specified in the event pattern. |
 | **Security hub** | **N/A** | Displays non-compliant resources or configuration changes in the Findings Dashboard. From this dashboard, agency administrators can perform the necessary remediation to ensure all resources remain compliant. | **SNS (Optional & Agency responsibility)** | **Topic:** </br>- clm-pac-sechubfindings-email | Sends PaC alert notifications to recipients through email, Slack and third-party products. Refer to section 3.2. |
 
@@ -72,13 +72,13 @@ EventBridge:
 | **10 custom events** | 10 x 1 region x $0.00 per check</br>($0 for \< 1 million events, AWS will only start charging if it exceeds 1 million events) | $0.00 |
 |  | Total EventBridge cost per month (USD) | Free of charge |
 
-Security Hub:
+Security hub:
 
 | **No. of Occurrences** | **Cost Calculation** | **Total Cost** |
 | --- | --- | --- |
 | **2500 security checks** | 2500 x 1 region x $0.0010 per check</br> (first 100,000 checks tier) | $2.50 |
 | **150,000 finding ingestions** | 10000 x 1 region x $0.00 per event</br>(first 10,000 events - free tier)</br>140000 x 1 region x $0.00003 per event (more than 10000 events) | First 10,000 events: $0.00</br>Next 140,000 events: $4.20 |
-| | Total Security Hub cost per month (USD) | $6.70 |
+| | Total Security hub cost per month (USD) | $6.70 |
 
 Simple Notification Service (SNS)\*:
 
