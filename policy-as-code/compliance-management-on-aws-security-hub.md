@@ -1,16 +1,16 @@
 # Compliance management on AWS Security hub
 
-If the non-compliant PaC Security Hub findings has been resolved, administrators can remove the resolved finding from the dashboard using alert suppression. Alternatively, if the PaC findings are not applicable to the agency account, administrators may also supress those findings that are not required.
+If the non-compliant PaC Security hub findings has been resolved, administrators can remove the resolved finding from the dashboard using alert suppression. Alternatively, if the PaC findings are not applicable to the agency account, administrators may also supress those findings that are not required.
 
 ## Suppressing alerts
 
-In an event where the agency deems certain Security Hub findings as not applicable (_for example, IAM.6 Hardware MFA shall be enabled for the root user_ - as agency accounts does not utilisze hardware MFA), the findings can be supressed using AWS Security Hub Findings Dashboard on Management Console or through AWS CLI.
+In an event where the agency deems certain Security hub findings as not applicable (_for example, IAM.6 Hardware MFA shall be enabled for the root user_ - as agency accounts does not utilisze hardware MFA), the findings can be supressed using AWS Security hub Findings Dashboard on Management Console or through AWS CLI.
 
 ### To suppress PaC findings using AWS Console:
 
   a. Log in to **AWS Tenant Account**.
 
-  b. Click **AWS Security Hub** and select **Findings**.
+  b. Click **AWS Security hub** and select **Findings**.
 
   c. Select findings to be suppressed.
 
@@ -46,7 +46,7 @@ You have now successfully suppressed the PaC Findings.
 
 ## Setup Security hub alerts to email/Slack/ServiceNow ITSM
 
-Aside from viewing PaC related alerts on Security Hub, if a resource is non-compliant, PaC detects it and notifies the agency administrators through the preferred channel.
+Aside from viewing PaC related alerts on Security hub, if a resource is non-compliant, PaC detects it and notifies the agency administrators through the preferred channel.
 
 Agency administrators can receive notifications through one or more of the following channels:
 
@@ -54,6 +54,6 @@ Agency administrators can receive notifications through one or more of the follo
 
 - Slack: Notifications will be sent through SNS and Chatbot from agency account to Slack channel.
 
-- ITSM: Notifications will be sent via a CloudFormation Stack Security Hub-ITSM Connector from agency account to ServiceNow instance.
+- ITSM: Notifications will be sent via a CloudFormation Stack Security hub-ITSM Connector from agency account to ServiceNow instance.
 
 Refer to [References](/policy-as-code/references.md) for more information.
