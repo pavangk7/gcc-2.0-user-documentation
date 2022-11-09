@@ -12,7 +12,7 @@ Agencies can create and manage their cloud accounts using CMP, and this has the 
 ## Request for a CSP account
 Generally, Tenant Admins request for CSP accounts. Tenant Manager can also request for a CSP account provided the tenant account has more than one Tenant Manager so that the other Tenant Manager(s) can be assigned as approver(s) for this request.
 
-> **Important note:** Your cloud account will be pre-setup with certain services and charged accordingly. For example, if you are creating an AWS account, AWS Security Hub will be turned on to meet the security requirements, and you will be charged for it immediately when the account gets created.
+> **Important note:** Your cloud account is pre-setup with certain services and charged accordingly. For example, if you are creating an AWS account, AWS Security Hub is turned on to meet the security requirements, and you are charged for it immediately when the account gets created.
 
 **To submit a CSP account creation request**
 1. [Log in to the Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
@@ -24,9 +24,9 @@ Generally, Tenant Admins request for CSP accounts. Tenant Manager can also reque
 | <div style="width:250px">Field Name</div>  | <div style="width:200px">Description</div> |
 | :------------------------------------------ | :------------- |
 | **Source**| Select the required cloud service provider. |
-| **Account Name** | While you can specify the required name, the account name will be appended with a prefix and suffix. <br><br>For example, if your tenant account belongs to GovTech, and you specify "*test-account*" as the name, *gcci-agency-gvt*, and *-prd* are added as prefix and suffix to this so that the **Account Name** is *gcci-agency-gvt-test-account-prd*. |
+| **Account Name** | While you can specify the required name, the account name is appended with a prefix and suffix. <br><br>For example, if your tenant account belongs to GovTech, and you specify "*test-account*" as the name, *gcci-agency-gvt*, and *-prd* are added as prefix and suffix to this so that the **Account Name** is *gcci-agency-gvt-test-account-prd*. |
 | [**Root Account Email**](manage-root-email-mailing-list) | Auto-created mailing list that serves as the root email for the created CSP account. Tenant Admins can manage the recipients in this mailing list on CMP after the cloud account is created. |
-| [**CMP Billing Account**](manage-tenant-billing-account) | Tenant Billing Account under which this CSP account will be charged. |
+| [**CMP Billing Account**](manage-tenant-billing-account) | Tenant Billing Account under which this CSP account is charged. |
 | **Owner** | User who requests for this CSP account. |
 
 5. Fill in required **Data Settings** details and click **Next**.
@@ -57,7 +57,7 @@ Requestor may retract a submitted request that is pending approval for the follo
 - requestor wants to assign a different approver
 - request is no longer valid.
 
-When you retract a request, you may have to provide a reason for retracting the request and the request status changes from **Pending** to **Cancelled** and will be listed under **Notifications** > **Approvals** > **Cancelled**.
+When you retract a request, you may have to provide a reason for retracting the request and the request status changes from **Pending** to **Cancelled** and is listed under **Notifications** > **Approvals** > **Cancelled**.
 
 **To retract a CSP account creation request**
 1. [Log in to the Cloud Management Portal](log-in-to-cmp).
@@ -76,7 +76,7 @@ When you retract a request, you may have to provide a reason for retracting the 
 
 ## Approve or reject CSP account creation request
 
-When a Tenant Admin or Tenant Manager submits a CSP account creation request, the Tenant Managers assigned as approvers in the request will be notified via email to process the request.
+When a Tenant Admin or Tenant Manager submits a CSP account creation request, the Tenant Managers assigned as approvers in the request are notified via email to process the request.
 Approving Tenant Manager reviews the request details before approving or rejecting the CSP account creation.
 
 > **Note:**
