@@ -17,7 +17,7 @@ This document lists the known findings on such GCCI resources in tenant accounts
 
 | Resource | Resource ID (if applicable) | Deviation from Standard & Control | Justification |
 | ------------- |-------------|-------------|-------------|
-| root user account      | | **CIS**<br>- CIS.1.14: Ensure hardware MFA is enabled for the "root" account<br>- CIS.1.13: Ensure MFA is enabled for the "root" account<br><br>**SBP**<br>- IAM.6: Hardware MFA should be enabled for the root user<br><br>**PCI DSS**<br>- PCI.IAM.4: Hardware MFA should be enabled for the root user<br>- PCI.IAM.5: Virtual MFA should be enabled for the root user |1. According to IM 8, MFA is needed for all administrative access. However, it did not specify the need for hardware MFA.<br><br>2.	For all root accounts, there a need to enforce MFA.<br><br>3. Agency tenant should refer to this link to reset root account password and configure MFA. |
+| root user account      | | **CIS**<br>- CIS.1.14: Ensure hardware MFA is enabled for the "root" account<br>- CIS.1.13: Ensure MFA is enabled for the "root" account<br><br>**SBP**<br>- IAM.6: Hardware MFA should be enabled for the root user<br><br>**PCI DSS**<br>- PCI.IAM.4: Hardware MFA should be enabled for the root user<br>- PCI.IAM.5: Virtual MFA should be enabled for the root user |1. According to IM 8, MFA is needed for all administrative access. However, it did not specify the need for hardware MFA.<br><br>2.	For all root accounts, there is a need to enforce MFA.<br><br>3. Agency tenant should refer to [reset root account password and configure MFA](https://docs.developer.tech.gov.sg/docs/gcc-version-2-user-documentation/manage-root-email-mailing-list). |
 
 
 
