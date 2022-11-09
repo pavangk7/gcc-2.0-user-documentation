@@ -2,7 +2,7 @@
 This page provides you with information about:
 
 
-- [latest documentation changes](#latest-documentation-changes)
+- [Latest documentation changes](#latest-documentation-changes)
 - Release notes
 - Announcements
 - Known issues
