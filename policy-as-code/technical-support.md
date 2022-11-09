@@ -1,4 +1,4 @@
-# 5.Technical support
+# Technical support
 
 If you need help or have additional queries regarding AWS Custom PaC rules, please contact:
 
