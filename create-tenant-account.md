@@ -6,7 +6,7 @@ In GCC 2.0, agencies can consolidate and centrally manage their cloud accounts u
 
 **Who can create a tenant account?**
 
-Public officer with an active TechPass account using their non-SE GSIB device.
+Public officer.
 
 Topics:
 
@@ -36,7 +36,7 @@ Topics:
 | **Tenant Name**      | Enter a human-readable alias name for this tenancy.     |
 | **Parent Agency**     | Select your agency name from the drop-down list.     |
 | **Agency Address** | Official mailing address of your Agency. This is automatically displayed based on the selected **Parent Agency**. |
-| **Agency CIO Email** | Enter the organisation email address of your CIO or the designated CIO delegate of your agency. <br><br> when you submit the request, this user receives an email for processing the request. |
+| **Agency CIO Email** | Enter the organisation email address of your CIO or the designated CIO delegate of your agency. <br><br> When you submit the request, this user receives an email for processing the request. |
 
 <kbd>![create-tenant-acc-agency-details](images/create-tenant-acc-agency-details.png)</kbd>
 
@@ -47,12 +47,12 @@ Topics:
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|
 | **Tenant Manager Details**                  | By default, the public officer requesting this tenant account is assigned as the Tenant Manager. Hence, this section displays the details of the requestor.  |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Email**                                |   By default, this displays the TechPass ID(organisation email address) of the requestor.<br><br> Note:  Requestors can assign this role to another user, provided they first assign the Tenant Admin role to themselves. To assign the Tenant Manager role to another user, enter the TechPass ID of the required public officer.                                                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Email**                                |   By default, this field displays the email address registered with TechPass for the requestor.<br><br> Note:  Requestors can assign this role to another user, provided they first assign the Tenant Admin role to themselves. To assign the Tenant Manager role to another user, enter the email address registered with TechPass for the required public officer.                                                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Name**                                    |   Displays the full name of the Tenant Manager.                                                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Mobile Number**   | Displays the handphone number of the Tenant Manager if available.                                                    |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Assign To Me**                            |   This option is enabled only if the Tenant Manager role is currently assigned to another user. Click this to assign the Tenant Manager role to yourself. |
 | **Tenant Admin Details**                    |   This section allows requestor to assign a Tenant Admin for this account. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Email**                                   |   By default, this field is blank.  To assign this role to a user in your agency, enter the TechPass ID (organisation email address) of the required public officer. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Email**                                   |   By default, this field is blank.  To assign this role to a user in your agency, enter the email address registered with TechPass for the required public officer. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Name**                                    |   Displays the full name of the assigned Tenant Admin. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Assign To Me**                            |   As a requestor, you can assign the **Tenant Admin** role to yourself by clicking this option. |
 
@@ -75,7 +75,7 @@ Topics:
 | **Agency Billing Address** | This is the official mailing address of your agency and is displayed automatically based on the Agency Details provided earlier. |
 | **Attention to** | Enter the full name of the public officer who receives the invoice for this tenant account. |
 | **Contact Number** | Enter the phone number of the public officer who receives the invoice. |
-| **Email Address** | Enter the TechPass ID (organisation email address) of the public officer who receives the invoice. |
+| **Email Address** | Enter the email address registered with TechPass for the public officer who receives the invoice. |
 | **Cost Center**  | This is applicable only for GovTech tenant accounts. Enter the cost center code for your agency. This code will be used by the Finance for internal GovTech inter-department charging/journal entry.|
 | **Payment Mode (for agencies)** | This is applicable for agencies other than GovTech. Choose one of the following payment modes. <ul><li>GIRO - Choose this to auto debit the billing amount from your agency's designated bank account on the invoice due date.</li><li>PUBBS (Payment Under Block Billing System) - Choose this to auto debit the billing amount from the account activated on the PUBBS Portal. The billing amount is deducted in two instalments with the first and second instalment dates falling on 15th and 24th of every month.</li><li>Interbank Transfer - Choose this to make the payment only after your agency initiates the payment.</li> |
 

@@ -98,7 +98,7 @@ Approving Tenant Manager reviews the request details before approving or rejecti
 
   After a request is approved, GCC 2.0 platform provisions the CSP account. After the approval, it may take up to one hour to provision the requested CSP account. When the cloud account is provisioned, the cloud service provider notifies the Tenant Admin.
 
-  After the successful provisioning of the CSP account, the status of this new CSP account changes to **Success**. If the account provisioning failed, the status changes to **Failed**. If the provisioning fails, contact us at gcc2.0_support@tech.gov.sg.
+  After the successful provisioning of the CSP account, the status of this new CSP account changes to **Success**. If the account provisioning failed, the status changes to **Failed**. If the provisioning fails, contact us at GCC 2.0_support@tech.gov.sg.
 
 
   > **Note:**  After a CSP account is provisioned, the respective cloud service provider may send multiple emails to the Tenant Admin requesting some actions to be completed. You can safely ignore these emails.
