@@ -1,4 +1,4 @@
-# 6.References
+# References
 
 For more information, refer to the URLs below:
 
