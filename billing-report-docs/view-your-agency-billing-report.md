@@ -3,7 +3,7 @@
 GovTech publishes the GCC billing report for all the agency GCC tenants between the 10<sup>th</sup> and 14<sup>th</sup> of every month on CMP.
 
 >**Note**:
-> Billing reports will be available for one year from the generation date.
+> Billing reports are available for one year from the generation date.
 
 Authorised users can download the monthly billing report for the agency's GCC tenant accounts from the Cloud Management Portal.
 

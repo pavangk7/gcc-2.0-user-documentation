@@ -21,7 +21,7 @@ If you are a Tenant Manager, Tenant Admin or a Tenant Billing Admin of the tenan
 2. Click **Edit**.
 3. Modify the required details and click **Submit**. A success message will be displayed.
 
-> **Note**: You cannot edit the **UUID** (Account ID) details.
+> **Note**: You cannot edit the **Billing Account ID** details.
 
 ## View CSP accounts
 
