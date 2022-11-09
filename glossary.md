@@ -48,7 +48,7 @@ Government furnished equipment is a device issued by a government agency.
 Government managed device. An internet device provided by government agency or a vendor when onboarded to SEED becomes a government managed device.
 
 **GSIB**
-Government standard image build is a standard operating environment (SOE) device issued by government. There are two types of GSIB devices: SE GSIB and non-SE GSIB devices.
+Government standard image build is a standard operating environment (SOE) device issued by government. There are two types of GSIB devices: Secret Email(SE) GSIB and non-SE GSIB devices.
 
 **TechPass**
 [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) is an Identity & Access Management (IAM) and  a single sign-on(SSO)solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
@@ -60,7 +60,7 @@ This is used to log in to your TechPass account.
 - For vendors, it is *your_name<span>@</span>techpass.gov.sg*.
 
 **Tenant Admin**
-Administrator of the GCC2.0 Tenant Account. By default, each tenant account will have one Tenant Manager. Only a public officer can be a Tenant Admin.
+Administrator of the GCC 2.0 Tenant Account. By default, each tenant account will have one Tenant Manager. Only a public officer can be a Tenant Admin.
 Tenant Admin can do the following:
 - submit requests to add additional tenant account users
 - manage the tenant account users and their roles
@@ -74,7 +74,7 @@ This is an optional role for tenant accounts and may be assigned to a public off
 
 
 **Tenant Manager**
-Owner of the GCC2.0 Tenant Account who approves requests raised by other tenant users using the GCC 2.0 CMP. Only a public officer can be a Tenant Manager. By default, each tenant account will have one Tenant Manager.
+Owner of the GCC 2.0 Tenant Account who approves requests raised by other tenant users using the GCC 2.0 CMP. Only a public officer can be a Tenant Manager. By default, each tenant account will have one Tenant Manager.
 
 Tenant Admins can submit a request to add the second Tenant Manager. Though Tenant Managers can perform all the actions available to other tenant roles, they can submit requests only if there is more than one Tenant Manager for the tenant account.
 

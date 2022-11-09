@@ -34,7 +34,7 @@ Tenant Manager and Tenant Admin of the tenant account can manage the recipients 
 1. Log in to the [Cloud Management Portal](log-in-to-cmp). The **Dashboard** displays the available tenant accounts.
 2. Locate the required tenant account and click **Manage**. Available CSP accounts are listed on the **CSP Accounts** page.
 3. Locate the required CSP account and click **Manage**.
-4. Go to **Mailing List**.
+4. Go to the **Mailing List**.
 5. To remove a user, click the trash icon in that row.
 6. Click **Submit**.
 

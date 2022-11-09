@@ -35,8 +35,8 @@ Tenant Admin and Tenant Manager can add users to a CSP account.
 | <div style="width:270px">Field Name</div>  | Description |
 | :------------------------------------------ |:-------------|
 | **Role**      | Select a role for the cloud user. Following are the cloud roles available in the CMP portal:<br><br>- Cloud Admin<br>- Cloud Assume Role<br>- Cloud Billing<br>- Cloud Developer<br>- Cloud Network admin(Internet)<br>- Cloud Network admin(Intranet)<br>- Cloud Ops<br>- Cloud Security Auditor<br>- Cloud SIRO<br>- Cloud Support<br><br>**Note**: To know more about the permissions available for each role, refer to the [Glossary](glossary).   |
-| **Email**     | Type the first few characters of the TechPass ID, and select the required TechPass ID from the matching results. <br><br>- You can add users who have an active TechPass account. <br>- If you can't locate user by entering the email address, verify if the user has an active TechPass account.  |
-| **Name** | Displays the user name based on the TechPass ID selected as **Email**. |
+| **Email**     | Type the first few characters of the email address used to register for TechPass and select the required email address from the matching results. <br><br>- You can add users who have an active TechPass account. <br>- If you can't locate user by entering the email address, verify if the user has an active TechPass account.  |
+| **Name** | Displays the user name based on the selected **Email**. |
 | **Phone Number** | Displays the phone number of the user if available. |
 | **Add another user** |  Click this to add another user. |
 
