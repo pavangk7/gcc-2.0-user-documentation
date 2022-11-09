@@ -4,7 +4,7 @@ This section helps you understand how to view the billing report for your tenant
 
 If there is any discrepancy in the costs listed on the billing report, agencies can raise a dispute with their CSP to resolve them.
 
-If there is no discrepancy in the CSP cost, GovTech will proceed to generate an invoice based on this billing report. Generated invoices will be available by the end of the month, and agencies have a 30-day credit term to complete their payment.
+If there is no discrepancy in the CSP cost, GovTech will proceed to generate an invoice based on this billing report. Generated invoices are available by the end of the month, and agencies have a 30-day credit term to complete their payment.
 
 ## Prerequisites
 
