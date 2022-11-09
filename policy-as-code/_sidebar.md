@@ -7,4 +7,4 @@
   - [Technical support](/policy-as-code/technical-support.md)
   - [References](/policy-as-code/references.md)
   - **Back to main help**
-  - [Back to main](policy-as-code/overview)
+  - [Back to main](/overview)
