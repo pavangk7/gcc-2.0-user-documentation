@@ -1,10 +1,10 @@
 # Security Hub findings retention period
 
-- Findings are **retained for 90 days** and will be automatically removed from the dashboard after 90 days.
-- Findings can be exported to S3 buckets for long-term storage:
-  - To be configured by the agencies.
-  - To export security hub findings to S3 buckets, setup security hub custom action and EventBridge rule. When the agency administrators export the findings to S3 buckets, they need to invoke the custom action manually on the security hub dashboard.
-  - For detailed instructions, refer to the additional resources.
+Security Hub findings retention period:
+
+- Findings will be retained and stored at the dashboard for 90 days. Findings will be removed from the dashboard afterwards.
+- After 90 days, findings are automatically exported to central GCCI log for long term storage.
+- Agency is not required to setup services for exporting of findings, as the setup has already been deployed in agency accounts.
 
 **Additional resources:**
 
