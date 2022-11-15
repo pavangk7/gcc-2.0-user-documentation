@@ -2,9 +2,10 @@
 
 Security Hub findings retention period:
 
-- Findings will be retained and stored at the dashboard for 90 days. Findings will be removed from the dashboard afterwards.
-- After 90 days, findings are automatically exported to central GCCI log for long term storage.
-- Agency is not required to setup services for exporting of findings, as the setup has already been deployed in agency accounts.
+- Findings are retained and available on the AWS Security Hub Dashboard for 90 days. 
+- After 90 days, the findings are automatically removed from this dashboard and GCC automatically export the findings to the central GCCI log for long-term storage.
+- As GCC takes care of this export, agency need not set up any service for this.
+
 
 **Additional resources:**
 
