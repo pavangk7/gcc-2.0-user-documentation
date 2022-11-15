@@ -6,6 +6,7 @@ Security Hub findings retention period:
 - After 90 days, the findings are automatically removed from this dashboard and GCC automatically export the findings to the central GCCI log for long-term storage.
 - As GCC takes care of this export, agency need not set up any service for this.
 
+> **Note:** For more information, refer to the links provided in **Additional resources**.
 
 **Additional resources:**
 
@@ -16,5 +17,3 @@ Security Hub findings retention period:
 - [Security Hub standards and control](/C:/Users/gt-senks/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/D5DEQ5RN/5.%09https:/docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards.html)
 - [Overview of EventBridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html)
 - [EventBridge Cost](https://aws.amazon.com/eventbridge/pricing/)
-
-> **Note:** For more information, refer to the links provided in **Additional resources**.
